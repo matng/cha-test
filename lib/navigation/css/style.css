@@ -2,28 +2,26 @@
 /* CSS Document */
 /**** Body ***/
 body{
-	background:#aedae9;
+	background:#fff;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	line-height:normal;
 	color:#FFF;
 	margin:0;
-	}
+}
 /**** Links ***/
 a{ text-decoration: none;color:#FFF;}
 a:link{ text-decoration:none;}
 a:visited{ text-decoration:none;}
 /**** Header ***/
 #header{
-	background: url(../img/background_header.png) no-repeat;
+	/* background: url(../img/background_header.png) no-repeat; */
 	width:100%;
 	height:50px;
 	float:right;
 /****	margin:auto;***/
-	}
+}
 .header_navigation{
 	float:right;
-	width:100%;
-	height:24px;
-	margin:3px 0 0 0;
-	}
+	height:47px;
+}
 
