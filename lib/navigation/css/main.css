@@ -1,5 +1,5 @@
 .mainmenuslide {
-	height: 47px; width:100%;
+	height: 47px; width:103%;
     /* background: url("../img/background_main.png") no-repeat top; position: relative; */
     padding: 10px 0 15px 0; margin: 0 -10px 0;
     }
@@ -9,16 +9,16 @@
 	}
 .mainmenuslide li.back {
 	background: url("../img/hover_main.png") no-repeat right -52px;
-	width: 9px; height: 50px; padding: 0px 0 22px 0;
+	width: 9px; height: 52px; padding: 0px 0 22px 0;
     z-index: 1;	margin: -12px 0 0 8px; position: absolute;
 	}
 .mainmenuslide li.back .left {
 	background: url("../img/hover_main.png") no-repeat top left ;
-	padding: 0px 0 22px 0; height: 50px; margin-right: 24px; 
+	padding: 0px 0 22px 0; height: 52px; margin-right: 24px; 
 	}
 .mainmenuslide li a {
-	font: bold 14px arial;
-    top: 7px; z-index: 2; float: left;
+	font: 15px arial;
+    top: 7px; z-index: 2; float: right;
     height: 30px; position: relative;
     margin: auto 10px; outline: none;    
     }

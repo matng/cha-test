@@ -8,7 +8,7 @@
 <script type="text/javascript" src="lib/navigation/js/jquery-1.2.3.min.js"></script>
 <script type="text/javascript" src="lib/navigation/js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="lib/navigation/js/jquery.mainmenuslide.js"></script>
-<header>
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -21,8 +21,8 @@
         </div>
     </header>
     <!-- HEADER END-->
-    <div class="navbar navbar-inverse set-radius-zero">
-        <div class="container">
+    <div class="navbar navbar-inverse set-radius-zero" style="height: 150px">
+        <div class="container  header-center">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
@@ -31,7 +31,7 @@
                 </button>
                 <a class="navbar-brand" href="index.html">
 
-                    <img src="assets/img/logo.png" />
+                    <img src="assets/img/logo.png" style="margin-bottom: 19px"/>
                 </a>
 
             </div>
@@ -77,15 +77,14 @@
                 <div class="col-md-12">
                     <div id="header">
                         <div class="header_navigation">
-                            <ul class="mainmenuslide">
-                                <li><a href="index.html">首页</a></li>
-                                <li><a href="ui.html">检测认证</a></li>
-                                <li><a href="table.html">创新检测券</a></li>
-                                <li><a href="forms.html">检验仪器共享</a></li>
-                                <li><a href="login.html">专家咨询</a></li>
-                                <li><a href="blank.html">行业标准</a></li>
-                                <li><a href="blank.html">资料库</a></li>
-                                <li><a href="blank.html">关于我们</a></li>
+                            <ul class="mainmenuslide" id="navigation">
+                                <li><a href="index.html" alt="">首页</a></li>
+                                <li><a href="ui.html" alt="">检测认证</a></li>
+                                <li><a href="table.html" alt="">创新检测券</a></li>
+                                <li><a href="forms.html" alt="">仪器共享</a></li>
+                                <li><a href="login.html" alt="">专家咨询</a></li>
+                                <li><a href="blank.html" alt="">资料库</a></li>
+                                <li><a href="blank2.html" alt="">关于我们</a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,11 +96,12 @@
 
     <script type="text/javascript">
         $(function() {
-            $("ul").mainmenuslide({
+            $("#navigation").mainmenuslide({
                 fx: "backout",
                 speed: 700,
                 click: function(event, menuItem) {
-                    return false;
+                    console.log(23);
+                    return true;
                 }
             });
         });
