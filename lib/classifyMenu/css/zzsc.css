@@ -9,7 +9,7 @@ a:hover{text-decoration:underline;}
 .fr { float: right; }
 
 /*±¾Àýcss*/
-.warpper{width:300px;float: left}
+.warpper{width:1190px;margin:15px auto 0 auto;}
 .menu{padding-left:193px;}
 .menu,.menu ul li,.menu ul li a{height:39px;line-height:39px;background:#1369C0 }
 .menu ul li,.menu ul li a{float:left;position:relative;}
@@ -17,10 +17,10 @@ a:hover{text-decoration:underline;}
 .menu ul li a{display:block;padding:0 28px 0 28px;color:#FFFFFF;font-size:14px;font-family:"Microsoft Yahei";}
 .menu ul li a:hover{background:#135DBC;text-decoration:none;}
 
-#nav{width:190px;position:relative;top:-35.5px;background:#119C7E;z-index:1;box-shadow:4px 2px 5px rgba(0, 0, 0, 0.3);left:40px;padding-top: 18px;margin-top: 41px;}
+#nav{width:190px;position:relative;top:-118.5px;background:#119C7E;z-index:1;box-shadow:4px 2px 5px rgba(0, 0, 0, 0.3);left:20px;padding-top: 18px;margin-top: 41px;}
 
 #nav .mod_cate_hd{height:44px;line-height:40px;font-size:16px;color:#FFFFFF;text-indent:7px;background-color:#119C7E;border-bottom:1px #328472 solid;font-family:"Microsoft Yahei";}
-#nav .mod_cate,#nav .mod_cate2{height:41px;border-top:1px #15a989 solid;border-bottom:1px #328472 solid;padding:9px 10px 10px 10px;}
+#nav .mod_cate,#nav .mod_cate2{height:58px;border-top:1px #15a989 solid;border-bottom:1px #328472 solid;padding:9px 10px 10px 10px;}
 #nav .mod_cate h2,#nav .mod_cate2 h2{font-size:14px;font-weight:normal;font-family:"Microsoft Yahei";}
 #nav .mod_cate h2 a,#nav .mod_cate2 h2 a{color:#FFFFFF;padding-right:5px;}
 #nav .mod_cate a.hot_sub{background:#f0677c;font-size:12px;border-radius:9px;padding:0px 5px;margin-left:5px;}
@@ -28,7 +28,7 @@ a:hover{text-decoration:underline;}
 #nav .mod_cate_r a{font-size:12px;color:#C2D9F8;padding-right:5px;}
 #nav .mod_cate2{background:none;}
 #nav .mod_cate2 a.yel{color:#fee602;}
-#nav .mod_subcate{display:none;width:798px;height:431px;border:2px #119c7e solid;background:#FFFFFF;box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4);position:absolute;top:62px;z-index:-1;left:188px;overflow:hidden;}
+#nav .mod_subcate{display:none;width:798px;height:406px;border:2px #119c7e solid;background:#FFFFFF;box-shadow:5px 5px 10px rgba(0, 0, 0, 0.4);position:absolute;top:62px;z-index:-1;left:188px;overflow:hidden;}
 
 #nav .mod_subcate_main{width:530px;padding:0px 20px 1000px 20px;margin-bottom:-1000px;border-right:1px #ddd solid;float:left;}
 #nav .mod_subcate_line{width:100%;height:1px;clear:both;font-size:0px;margin-bottom:5px;border-top:5px #fff solid;border-bottom:1px #dadada dotted;overflow:hidden;display:block;}
@@ -37,10 +37,10 @@ a:hover{text-decoration:underline;}
 #nav .mod_subcate_main dl dd{line-height:22px;overflow:hidden;}
 #nav .mod_subcate_main dl dd a{color:#666;font-size:12px;margin:0 5px 0 5px;float:left;display:inline;white-space:nowrap;}
 #nav .mod_subcate_main dl dd a.org{color:#ff7300;}
-#nav .mod_subcate_channel{clear:both;margin-top:15px;} 
-#nav .mod_subcate_channel .mod_btn_arrow{height:26px;line-height:26px;font-size:12px;padding:0 10px 0 10px;margin-left:5px;text-decoration:none;color:#FFFFFF;background:#119c7e;cursor:pointer;display:inline-block;}
+#nav .mod_subcate_channel{clear:both;margin-top:8px;} 
+#nav .mod_subcate_channel .mod_btn_arrow{height:26px;line-height:26px;font-size:11px;padding:0 10px 0 10px;margin:5px 5px 5px 5px;text-decoration:none;color:#FFFFFF;background:#119c7e;cursor:pointer;display:inline-block;}
 #nav .mod_subcate_channel .mod_btn_arrow b{font-weight:normal;float:left;}
-#nav .arrow_dot { width:0px;height:0px;overflow:hidden;font-size:0px;margin:9px 0 0 5px;border:4px transparent dashed;border-left:4px #FFFFFF solid;}
+#nav .arrow_dot { width:0px;height:0px;overflow:hidden;font-size:0px;margin:15px 0 0 10px;border:4px transparent dashed;border-left:4px #FFFFFF solid;vertical-align: top;}
 #nav .mod_subcate_side{width:217px;padding-top:5px;padding-left:10px;padding-bottom:1000px;margin-bottom:-1000px;float:left;}
 
 
