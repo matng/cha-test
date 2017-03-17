@@ -1,0 +1,959 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]--> 
+    <title>检验检测认证公共服务平台</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="lib/navigation/css/style.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="lib/navigation/css/main.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="lib/classifyMenu/css/zzsc.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="lib/carouselFigure/css/yx_rotaion.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/search/css/style.css" />
+     <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- header begin -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    欢迎光临，请先<a><span style="color: red">登录</span></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;我的订单 &nbsp;&nbsp;| &nbsp;&nbsp;购物车
+                   
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero" style="height: 150px">
+        <div class="container  header-center">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="images/logo.png" width="210" style="margin-bottom: 19px"/>
+                </a>
+
+            </div>
+
+            <div class="left-div">
+                <div style="width:530px;margin:75px auto;">
+                    <div class="search_box">
+                    <span class="left l_bg"></span>
+                    <span class="right r_bg"></span>
+                        <div class="search">
+                        <form name=search_form onSubmit="return bottomForm(this);" target="_blank" method=post>
+                            <div id="pt1" class="select">
+                            <a id="s0">全部分类</a>
+                            <div style="display:none;" id="pt2" class="part"> 
+                                <p>
+                                <a id="s1">检测认证</a>
+                                </p>
+                            </div>
+                            </div> 
+                        <input id="catid" name="catid" type="hidden" value="7">
+                        <input id="q" class="enter" name="infos" onFocus="if(this.value=='检测'){this.value='';}else{this.select();}this.style.color='black';"  value="检测">
+                        <input class="sb" name="Input" type="submit" value="">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="header">
+                        <div class="header_navigation">
+                            <ul class="mainmenuslide" id="navigation">
+                                <li><a href="index.html" alt="">首页</a></li>
+                                <li><a href="ui.html" alt="">检测</a></li>
+                                <li><a href="table.html" alt="">认证</a></li>
+                                <li><a href="forms.html" alt="">仪器共享</a></li>
+                                <li><a href="login.html" alt="">专家咨询</a></li>
+                                <li><a href="blank.html" alt="">资料库</a></li>
+                                <li><a href="blank2.html" alt="">关于我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- classifyMenu -->
+    <div class="warpper">
+    <div class="col-md-2">
+    <div id="nav">
+        <div class="mod_cate_hd">
+            　服务产品分类
+        </div>
+        <ul class="tit">
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">检测</a><a href="#">认证服务</a><a class="hot_sub" href="#">检测券</a></h2>
+                <p class="mod_cate_r"><a href="#">食品</a><a href="#">材料</a><a href="#">水质</a><a href="#">汽车尾气</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>材料检测</dt>
+                            <dd>
+                                
+                                <a href="#">成分分析</a>
+                               
+                                <a href="#">盐雾试验</a><a href="#">硬度</a><a href="#">密度</a><a href="#">拉伸性能</a><a href="#">压缩性能</a><a href="#">熔点</a><a href="#">剥离强度</a><a href="#">涂料测试</a><a href="#">氙灯老化</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>食品检测</dt>
+                            <dd>
+                                <a href="#">塑化剂</a><a href="#" class="org">食品接触材料</a><a href="#">三聚氰胺</a><a href="#">LFGB</a><a href="#">农药/兽药残留</a><a href="#">食品营养标签</a><a href="#">食品添加剂</a><a href="#">转基因</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>玩具检测</dt>
+                            <dd>
+                                <a href="#" class="org">EN71</a><a href="#" class="org">REACH</a><a href="#">CPSIA</a><a href="#">铅</a><a href="#">镍释放</a><a href="#">重金属</a><a href="#">阻燃性能</a>
+                                <a href="#">PoHS</a><a href="#">邻苯二甲酸酯</a><a href="#">PAHs</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>水质检测</dt>
+                            <dd>
+                                <a href="#">硬度</a><a href="#" class="org">化学需氧量COD</a><a href="#">生化需氧量BOD5</a><a href="#">电导率</a><a href="#">色度</a><a href="#">溶解性总固体</a><a href="#">PH值</a>
+                                <a href="#">氨氮</a><a href="#">臭和味</a><a href="#">菌落总数</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>纺织品检测</dt>
+                            <dd>
+                                <a href="#">成份分析</a><a href="#" class="org">色牢度</a><a href="#">尺寸稳定性</a><a href="#">GB 18401</a><a href="#">环保纺织品</a><a href="#" class="org">燃烧性能</a><a href="#">抗菌性能</a>
+                                <a href="#">羽绒测试</a><a href="#" class="org">皮革测试</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>工业废气检测</dt>
+                            <dd>
+                                <a href="#" class="org">二氧化硫</a><a href="#" class="org">氮氧化物NOx</a><a href="#">一氧化碳CO</a><a href="#">硫化氢</a><a href="#">颗粒物</a><a href="#">铬酸雾</a><a href="#">甲烷</a>
+                                <a href="#">苯并芘</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>欧盟认证</dt>
+                            <dd>
+                                <a href="#">CE认证</a><a href="#" class="org">CB认证</a><a href="#">EMC认证</a><a href="#">GS认证</a><a href="#">LVD认证</a><a href="#" class="org">E-mark</a><a href="#">MD认证</a>
+                                <a href="#">EUP认证</a><a href="#" class="org">GOST认证</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>亚洲认证</dt>
+                            <dd>
+                                <a href="#">CCC认证</a><a href="#" class="org">PSE认证</a><a href="#">SASO认证</a><a href="#">SAA认证</a><a href="#">ISI认证</a><a href="#" class="org">CQC认证</a><a href="#">KC认证</a>
+                                <a href="#">VCCI认证</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>体系认证</dt>
+                            <dd>
+                                <a href="#">GMP认证</a><a href="#" class="org">HACCP认证</a><a href="#">SA8000认证</a><a href="#">OHSAS18000认证</a><a href="#">ISO14001认证</a><a href="#" class="org">GAP认证</a><a href="#">ISO9001认证</a>
+                                <a href="#">ISO13485认证</a>
+                            </dd>
+                        </dl>
+                        
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>检测频道</b><i class="arrow_dot"></i></a><a class="mod_btn_arrow" href="#"><b>认证频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/26.jpg" /></a></li><br
+                            <li><a href="#"><img src="images/27.jpg" /></a></li><br/>
+                            <li><a href="#"><img src="images/28.jpg" /></a></li>
+                        
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul class="mod_subcate_side_hotlist">
+                            
+                            <a href="#"><img src="images/30.gif" /></a>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">仪器</a><a href="#">设备共享</a><a class="hot_sub" href="#">共享券</a></h2>
+                <p class="mod_cate_r"><a href="#">分析</a><a href="#">化学仪器</a><a href="#">物理仪器</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">气相色谱</a><a href="#">质谱</a><a href="#">测厚仪</a><a href="3">核磁共振波谱仪</a><a href="#">红外光谱仪</a><a href="#">紫外可见分光光度计</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>化学仪器</dt>
+                            <dd>
+                                <a href="#" title="质谱仪器">质谱</a>
+                                <a href="#" title="气相色谱仪器">气相色谱</a>
+                                <a href="#" title="红外光谱仪">红外光谱仪</a>
+                                <a href="#" title="液相色谱仪器">液相色谱</a>
+                                <a href="#" title="紫外可见分光光度计">紫外可见分光光度计</a>
+                                <a href="#" title="核磁共振波谱仪">核磁共振波谱仪</a>
+                                <a href="#" title="X射线衍射仪">X射线衍射仪</a>
+                                <a href="#" title="碳硫分析仪">碳硫分析仪</a>
+
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>物理仪器</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title=" 热重分析仪"> 热重分析仪</a>
+                                    <a href="#" title="X射线探伤仪">X射线探伤仪</a>
+                                    <a href="#" title="激光粒度仪">激光粒度仪</a>
+                                    <a href="#" title="差示扫描量热仪">差示扫描量热仪</a>
+                                    <a href="#" title="拉力试验机">拉力试验机</a>
+                                    <a href="#" title="老化试验箱">老化试验箱</a>
+                                    <a href="#" title="测厚仪">测厚仪</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环境检测仪器</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="氨氮测定仪">氨氮测定仪</a>
+                                    <a href="#" title="TOC总有机碳分析仪">TOC总有机碳分析仪</a>
+                                    <a href="#" title="COD测定仪">COD测定仪</a>
+                                    <a href="#" title="测氡仪">测氡仪</a>
+                                    <a href="#" title="噪声监测仪">噪声监测仪</a>
+                                    <a href="#" title="水质毒性分析仪">水质毒性分析仪</a>
+                                    <a href="#" title="藻类计数仪">藻类计数仪</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>光学仪器</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="工业显微镜">工业显微镜</a>
+                                    <a href="#" title="折光仪">折光仪</a>
+                                    <a href="#" title="白度仪">白度仪</a>
+                                    <a href="#" title="激光测距仪">激光测距仪</a>
+                                    <a href="#" target="_blank" title="扫描电镜">扫描电镜</a>
+                                    <a href="#" title="X射线能谱仪">X射线能谱仪</a>
+                                    <a href="#" title="扫描探针显微镜">扫描探针显微镜</a>
+
+
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>恒温/加热/干燥设备</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="烘箱">烘箱</a>
+                                    <a href="#" title="马弗炉">马弗炉</a>
+                                    <a href="#" title="水浴锅">水浴锅</a>
+                                    <a href="#" title="临界点干燥仪">临界点干燥仪</a>
+                                    <a href="#" title="喷雾干燥机">喷雾干燥机</a>
+                                    <a href="#" title="电热套">电热套</a>
+                                    <a href="#" title="恒温槽">恒温槽</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>分离/萃取设备</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="离心机">离心机</a>
+                                    <a href="#" title="超声波萃取仪">超声波萃取仪</a>
+                                    <a href="#" title="超临界萃取设备">超临界萃取设备</a>
+                                    <a href="#" title="固相萃取仪">固相萃取仪</a>
+                                    <a href="#" title="微波萃取设备">微波萃取设备</a>
+                                    <a href="#" title="快速溶剂萃取仪">快速溶剂萃取仪</a>                             
+
+                                </div>
+                            </dd>
+                        </dl>
+
+                        
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>化学仪器频道</b><i class="arrow_dot"></i></a><a class="mod_btn_arrow" href="#"><b>物理仪器频道</b><i class="arrow_dot"></i></a>
+                        <a class="mod_btn_arrow" href="#"><b>光学频道</b><i class="arrow_dot"></i></a><a class="mod_btn_arrow" href="#"><b>环境监测</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/30.jpg" /></a></li>
+                            <li><a href="#"><img src="images/31.jpg" /></a></li>
+                            <li><a href="#"><img src="images/32.jpg" /></a></li>                
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/37.gif" /></a></li>   
+                        </ul>
+                       
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">专家</a><a href="#">咨询服务</a><a class="hot_sub" href="#">人才库</a></h2>
+                <p class="mod_cate_r"><a href="#">认证</a><a href="#">仪器设备</a><a href="#">技术</a><a href="#">其他</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">全部</a><a href="#">研发项目管理</a><a class="org" href="#">注册安全工程师</a><a href="3">TCL</a><a href="#">安全评价</a><a href="#">安全培训</a><a class="org" href="#">消防安全</a>
+                                <a href="#">环境影响评价</a><a class="org" href="#">能源审计</a>
+                                
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>检测认证专家</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <li><a href="#">冯晓青</a></li>
+                                    <li><a href="#">于文杰</a></li>
+                                    <li><a href="#">刘晟</a></li>
+                                    <li><a href="#">黄文耀</a></li>
+                                    <li><a href="#">马良清</a></li>
+                                    <li><a href="#">赵欣刚</a></li>
+                                    <li><a href="#">许璐</a></li>
+                                    <li><a href="#">楼才英</a></li>
+                                    <li><a href="#">杨志清</a></li>
+                                    <li><a href="#">曹丽勤</a></li>
+                                    <li><a href="#">卢鸯</a></li>
+                                    <li><a href="#">叶翔宇</a></li>
+                                    <li><a href="#">王博</a></li>
+     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>仪器设备专家</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <li><a href="#">姜金锁</a></li>
+                                    <li><a href="#">陈建华</a></li>
+                                    <li><a href="#">何继龙</a></li>
+                                    <li><a href="#">梅永红</a></li>
+                                    <li><a href="#">孔令雷</a></li>
+                                    <li><a href="#">桑临春</a></li>
+                                    <li><a href="#">易锋</a></li>
+                                    <li><a href="#">赵清万</a></li>
+                                    <li><a href="#">陈华栋</a></li>
+                                    <li><a href="#">孙卫国</a></li>
+                                    <li><a href="#">周杰</a></li>
+                                    <li><a href="#">王常青</a></li>
+                                    <li><a href="#">刘建龙</a></li>
+     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环保</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <li><a href="#">张汉东</a></li>
+                                    <li><a href="#">潘洋</a></li>
+                                    <li><a href="#">柳冬静</a></li>
+                                    <li><a href="#">曹元礼</a></li>
+                                    <li><a href="#">邓毅</a></li>
+                                    <li><a href="#">王成</a></li>
+                                    <li><a href="#">王定友</a></li>
+                                    <li><a href="#">周树华</a></li>
+      
+      
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        
+
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>专家咨询服务频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">知名专家</div>
+                        <ul class="mod_subcate_side_brand clearfix" style="font-size:10px;">
+                            <li><a href="#"><img src="images/zhd.png" /></a><p>张汉东</p></li>
+                            <li><a href="#"><img src="images/py.jpg" style="margin-left:10px;" /></a><p>潘洋</p></li>
+                            <li><a href="#"><img src="images/ldj.jpg"  /></a><p>柳冬静</p></li>
+                            <li><a href="#"><img src="images/cyl.jpg" /></a><p>曹元礼</p></li>                                                        
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/37.png" /></a></li>
+                        </ul>
+                           
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">技术</a><a href="#">咨询服务</a></h2>
+                <p class="mod_cate_r"><a href="#">质量</a><a href="#">安全</a><a href="#">环境</a><a href="#">其他</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">全部</a><a href="#">研发项目管理</a><a class="org" href="#">注册安全工程师</a><a href="3">TCL</a><a href="#">安全评价</a><a href="#">安全培训</a><a class="org" href="#">消防安全</a>
+                                <a href="#">环境影响评价</a><a class="org" href="#">能源审计</a>
+                                
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>质量技术</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="供应链管理">供应链管理</a>
+                                    <a href="#" title="精益生产">精益生产</a>
+                                    <a href="#" title="六西格玛">六西格玛</a>
+                                    <a href="#" title="全面质量管理">全面质量管理</a>
+                                    <a href="#" title="全面风险管理">全面风险管理</a>
+                                    <a href="#" title="研发项目管理">研发项目管理</a>     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>安全</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="注册安全工程师">注册安全工程师</a>
+                                    <a href="#" title="职业卫生">职业卫生</a>
+                                    <a href="#" title="安全评价">安全评价</a>
+                                    <a href="#" title="安全培训">安全培训</a>
+                                    <a href="#" title="消防安全">消防安全</a>        
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环保</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="环境影响评价">环境影响评价</a>
+                                    <a href="#" title="能源审计">能源审计</a>
+                                    <a href="#" title="上市环保核查">上市环保核查</a>
+                                    <a href="#" title="清洁生产审核">清洁生产审核</a>
+                                    <a href="#" title="竣工环保验收">竣工环保验收</a>
+                                    <a href="#" title="环保项目咨询">环保项目咨询</a>      
+      
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>其它</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="法规注册">法规注册</a>
+                                    <a href="#" title="实验室信息管理系统">实验室信息管理系统</a>
+                                    <a href="#" title="验厂验货">验厂验货</a>
+                                    <a href="#" title="供应商审核">供应商审核</a>       
+      
+                                </div>
+                            </dd>
+                        </dl>
+
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>技术咨询服务频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/36.jpg" /></a></li>
+                            <li><a href="#"><img src="images/37.jpg" /></a></li>
+                            <li><a href="#"><img src="images/38.jpg" /></a></li>
+                            <li><a href="#"><img src="images/39.jpg" /></a></li>
+                            
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/fz.gif" /></a></li>
+                        </ul>
+                           
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">政府</a><a href="#">创新优惠券</a></h2>
+                <p class="mod_cate_r"><a href="#">检测</a><a href="#">认证</a><a href="#">仪器</a><a href="#">其他</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">全部</a><a href="#">研发项目管理</a><a class="org" href="#">注册安全工程师</a><a href="3">TCL</a><a href="#">安全评价</a><a href="#">安全培训</a><a class="org" href="#">消防安全</a>
+                                <a href="#">环境影响评价</a><a class="org" href="#">能源审计</a>
+                                
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>质量技术</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="供应链管理">供应链管理</a>
+                                    <a href="#" title="精益生产">精益生产</a>
+                                    <a href="#" title="六西格玛">六西格玛</a>
+                                    <a href="#" title="全面质量管理">全面质量管理</a>
+                                    <a href="#" title="全面风险管理">全面风险管理</a>
+                                    <a href="#" title="研发项目管理">研发项目管理</a>     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>安全</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="注册安全工程师">注册安全工程师</a>
+                                    <a href="#" title="职业卫生">职业卫生</a>
+                                    <a href="#" title="安全评价">安全评价</a>
+                                    <a href="#" title="安全培训">安全培训</a>
+                                    <a href="#" title="消防安全">消防安全</a>        
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环保</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="环境影响评价">环境影响评价</a>
+                                    <a href="#" title="能源审计">能源审计</a>
+                                    <a href="#" title="上市环保核查">上市环保核查</a>
+                                    <a href="#" title="清洁生产审核">清洁生产审核</a>
+                                    <a href="#" title="竣工环保验收">竣工环保验收</a>
+                                    <a href="#" title="环保项目咨询">环保项目咨询</a>      
+      
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>其它</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="法规注册">法规注册</a>
+                                    <a href="#" title="实验室信息管理系统">实验室信息管理系统</a>
+                                    <a href="#" title="验厂验货">验厂验货</a>
+                                    <a href="#" title="供应商审核">供应商审核</a>       
+      
+                                </div>
+                            </dd>
+                        </dl>
+
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>技术咨询服务频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/36.jpg" /></a></li>
+                            <li><a href="#"><img src="images/37.jpg" /></a></li>
+                            <li><a href="#"><img src="images/38.jpg" /></a></li>
+                            <li><a href="#"><img src="images/39.jpg" /></a></li>
+                            
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/ck.jpg" /></a></li>
+                        </ul>
+                           
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">资料库</a><a class="hot_sub" href="#">资料百科</a></h2>
+                <p class="mod_cate_r"><a href="#">检测专题</a><a href="#">性能分析</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>检测资料</dt>
+                            <dd>
+                                <a class="org" href="#">水中铅、镉、铬的定量分析报告</a><a href="#">基于高光谱成像技术的水果品质</a>
+                            </dd>
+                        </dl>
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>资料频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门推荐</div>
+                        <ul class="mod_subcate_side_brand clearfix" style="font-size:10px;">
+                            <li><a href="#"><img src="images/ICP.png" /></a><p>微波消解法结合ICP技术测定金属矿</p></li>
+                            <li><a href="#"><img src="images/dlz.png" /></a><p>等离子体质谱法测定乳制品中总碘</p></li>
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul class="mod_subcate_side_hotlist">
+                            <li><a href="#">如何选购一只适合自己使用的移液器</a></li>
+                            <li><a href="#">二氧化碳传感器的几种检测方法</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+       <!--  <div class="mod_cate2">
+           <h2><a href="#">QQ网购</a><a class="yel" href="#">彩票</a><a href="#">充值</a></h2>
+           <p class="mod_cate_r"><a href="#">美妆</a><a href="#">旅游</a><a href="#">票务</a><a class="yel" href="#">站长素材</a></p>
+       </div>  -->
+       
+    </div>
+    </div>
+    <div class="col-md-8">
+        <div style="margin: -7px 0 0 20px;float: left; height: 400px;";>
+            <div class="yx-rotaion">
+                <ul class="rotaion_list">
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/1.jpg" class="carousel" alt="贵州人自己的检测平台上线啦"></a></li>
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/2.jpg" class="carousel" alt="这里填写广告标题"></a></li>
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/3.jpg" class="carousel" alt="检查服务"></a></li>
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/4.jpg" class="carousel" alt="">科学公正</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="notice-board">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="display: none">
+               新闻公告
+                </div>
+                <div class="panel-body">
+                    <ul >
+                         <li><a href="#"><img src="images/26.jpg" /></a></li><br
+                            <li><a href="#"><img src="images/27.jpg" /></a></li><br/>
+                            <li><a href="#"><img src="images/28.jpg" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">Dashboard</h4>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-success">
+                        This is a simple admin template that can be used for your small project or may be large projects. 
+                        This is free for personal and commercial use.
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                 <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="dashboard-div-wrapper bk-clr-one">
+                        <i  class="fa fa-venus dashboard-div-icon" ></i>
+                        <div class="progress progress-striped active">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+  </div>
+                           
+</div>
+                         <h5>Simple Text Here </h5>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="dashboard-div-wrapper bk-clr-two">
+                        <i  class="fa fa-edit dashboard-div-icon" ></i>
+                        <div class="progress progress-striped active">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+  </div>
+                           
+</div>
+                         <h5>Simple Text Here </h5>
+                    </div>
+                </div>
+                 <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="dashboard-div-wrapper bk-clr-three">
+                        <i  class="fa fa-cogs dashboard-div-icon" ></i>
+                        <div class="progress progress-striped active">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+  </div>
+                           
+</div>
+                         <h5>Simple Text Here </h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="dashboard-div-wrapper bk-clr-four">
+                        <i  class="fa fa-bell-o dashboard-div-icon" ></i>
+                        <div class="progress progress-striped active">
+  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+  </div>
+                           
+</div>
+                         <h5>Simple Text Here </h5>
+                    </div>
+                </div>
+
+            </div>
+           
+            <div class="row">
+                <div class="col-md-6">
+                      <div class="notice-board">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                           Active  Notice Panel 
+                                <div class="pull-right" >
+                                    <div class="dropdown">
+  <button class="btn btn-success dropdown-toggle btn-xs" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+    <span class="glyphicon glyphicon-cog"></span>
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Refresh</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Logout</a></li>
+  </ul>
+</div>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                               
+                                <ul >
+                                   
+                                     <li>
+                                            <a href="#">
+                                     <span class="glyphicon glyphicon-align-left text-success" ></span> 
+                                                  Lorem ipsum dolor sit amet ipsum dolor sit amet
+                                                 <span class="label label-warning" > Just now </span>
+                                            </a>
+                                    </li>
+                                     <li>
+                                          <a href="#">
+                                     <span class="glyphicon glyphicon-info-sign text-danger" ></span>  
+                                          Lorem ipsum dolor sit amet ipsum dolor sit amet
+                                          <span class="label label-info" > 2 min chat</span>
+                                            </a>
+                                    </li>
+                                     <li>
+                                          <a href="#">
+                                     <span class="glyphicon glyphicon-comment  text-warning" ></span>  
+                                          Lorem ipsum dolor sit amet ipsum dolor sit amet
+                                          <span class="label label-success" >GO ! </span>
+                                            </a>
+                                    </li>
+                                    <li>
+                                          <a href="#">
+                                     <span class="glyphicon glyphicon-edit  text-danger" ></span>  
+                                          Lorem ipsum dolor sit amet ipsum dolor sit amet
+                                          <span class="label label-success" >Let's have it </span>
+                                            </a>
+                                    </li>
+                                   </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="panel-footer">
+                                <a href="#" class="btn btn-default btn-block"> <i class="glyphicon glyphicon-repeat"></i> Just A Small Footer Button</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="text-center alert alert-warning">
+                        <a href="#" class="btn btn-social btn-facebook">
+                            <i class="fa fa-facebook"></i>&nbsp; Facebook</a>
+                        <a href="#" class="btn btn-social btn-google">
+                            <i class="fa fa-google-plus"></i>&nbsp; Google</a>
+                        <a href="#" class="btn btn-social btn-twitter">
+                            <i class="fa fa-twitter"></i>&nbsp; Twitter </a>
+                        <a href="#" class="btn btn-social btn-linkedin">
+                            <i class="fa fa-linkedin"></i>&nbsp; Linkedin </a>
+                    </div>
+                     
+                    <hr />
+                     <div class="table-responsive">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Ref. No.</th>
+                                            <th>Date</th>
+                                            <th>Amount</th>
+                                            <th>Status</th>
+                                            <th>Delivery On </th>
+                                            <th># #</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                       
+                                        <tr>
+                                            <td># 2501</td>
+                                            <td>01/22/2015 </td>
+                                            <td>
+                                                <label class="label label-info">300 USD </label>
+                                            </td>
+                                            <td>
+                                                <label class="label label-success">Delivered</label></td>
+                                            <td>01/25/2015</td>
+                                             <td> <a href="#"  class="btn btn-xs btn-danger"  >View</a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td># 15091</td>
+                                            <td>12/12/2014 </td>
+                                            <td>
+                                                <label class="label label-danger">7000 USD </label>
+                                            </td>
+                                            <td>
+                                                <label class="label label-warning">Shipped</label></td>
+                                            <td>N/A</td>
+                                             <td> <a href="#"  class="btn btn-xs btn-success"  >View</a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td># 11291</td>
+                                            <td>12/03/2014 </td>
+                                            <td>
+                                                <label class="label label-warning">7000 USD </label>
+                                            </td>
+                                            <td>
+                                                <label class="label label-success">Delivered</label></td>
+                                            <td>01/23/2015</td>
+                                             <td> <a href="#"  class="btn btn-xs btn-primary"  >View</a> </td>
+                                        </tr>
+                                        <tr>
+                                            <td># 1808</td>
+                                            <td>11/10/2014 </td>
+                                            <td>
+                                                <label class="label label-success">2000 USD </label>
+                                            </td>
+                                            <td>
+                                                <label class="label label-info">Returned</label></td>
+                                            <td>N/A</td>
+                                             <td> <a href="#"  class="btn btn-xs btn-danger"  >View</a> </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="alert alert-danger">
+                        This is a simple admin template that can be used for your small project or may be large projects. This is free for personal and commercial use.
+                    </div>
+                    <hr />
+                     <div class="Compose-Message">               
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        Compose New Message 
+                    </div>
+                    <div class="panel-body">
+                        
+                        <label>Enter Recipient Name : </label>
+                        <input type="text" class="form-control" />
+                        <label>Enter Subject :  </label>
+                        <input type="text" class="form-control" />
+                        <label>Enter Message : </label>
+                        <textarea rows="9" class="form-control"></textarea>
+                        <hr />
+                        <a href="#" class="btn btn-warning"><span class="glyphicon glyphicon-envelope"></span> Send Message </a>&nbsp;
+                      <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-tags"></span>  Save To Drafts </a>
+                    </div>
+                    <div class="panel-footer text-muted">
+                        <strong>Note : </strong>Please note that we track all messages so don't send any spams.
+                    </div>
+                </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2017 贵州宏信达高新科技有限责任公司
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery-1.11.1.js"></script> -->
+    <script type="text/javascript" src="lib/navigation/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lib/navigation/js/jquery.mainmenuslide.js"></script>
+    <script type="text/javascript" src="lib/classifyMenu/js/jquery.SuperSlide.2.1.1.js"></script>
+
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.yx_rotaion.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="lib/search/js/common.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          /*  $("#navigation").mainmenuslide({
+                fx: "backout",
+                speed: 700,
+                click: function(event, menuItem) {
+                    console.log(23);
+                    return true;
+                }
+            });*/
+        });
+
+        $("#nav .tit").slide({
+            type:"menu",
+            titCell:".mod_cate",
+            targetCell:".mod_subcate",
+            delayTime:0,
+            triggerTime:10,
+            defaultPlay:false,
+            returnDefault:true
+        });
+        /* 轮播图 */
+        $(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+
+</body>
+</html>
