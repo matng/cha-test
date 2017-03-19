@@ -40,12 +40,12 @@ body {
 
 .page-head-line {
     font-weight: 900;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #F0677C;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #62a315;
     text-transform: uppercase;
-    color: #F0677C;
+    color: #62a315;
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 
 .btn {
