@@ -1,7 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+body{
+    font-family: 'Microsoft YaHei';
+}
 /*当当网商品展示页样式开始*/
 .current_place{
     padding-left:0px;
@@ -44,7 +46,7 @@
 
 }
 #product_storyList_top{
-    background-color:#62a315;
+    background-color: #62a315;
     border-bottom:solid 1px #e8e8e8;
     height:35px;
 }
@@ -126,18 +128,62 @@
     margin-bottom:20px;
 }
 .product_storyList_content_left{
-    width:100px;
+    width:210px;
+    text-align:center;
+    float:left;
+}
+.product_storyList_content_left img{
+    width:193px;
+    height: 220px;
     text-align:center;
     float:left;
 }
 .product_storyList_content_right{
     float:left;
-    width:800px;
+    width:710px;
     margin-bottom: 15px;
+
 }
-.product_storyList_content_dash{
-   /*  border-bottom:dashed 1px #666; */
+.product_storyList_content_right ul li{
+    padding-top: 8px;
 }
+.product_storyList_content_dash a{
+   font-size: 19px;
+   font-weight: 600;
+   color: #62a315;
+}
+.product_storyList_content_dash a:hover{
+   font-size: 19px;
+   color:red;
+   text-decoration: none;
+}
+.product_list_company{
+    color:gray;
+}
+
+.product_list_synopsis{
+    color:gray;
+}
+
+.product_list_table table{
+    width: 100%;
+    font-size: 15px;
+    border: 0px;
+}
+
+.product_list_table tr td {
+    padding-bottom: 10px;
+}
+
+.prodect_list_price{
+    font-size: 20px;
+    color: red;
+}
+
+.product_list_evalution {
+    float: right;
+}
+
 .blue_14{
     color:#1965b3;
     font-size:14px;
@@ -147,10 +193,6 @@
     color:#1965b3;
     text-decoration:underline;
     font-size:14px;
-}
-.product_content_dd dd{
-    float:right;
-    padding-right:10px;
 }
 .buyBtn img{
     width:110px;

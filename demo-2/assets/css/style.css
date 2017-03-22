@@ -48,6 +48,23 @@ body {
     margin-bottom: 5px;
 }
 
+.page-head-line span{
+    position:absolute;
+    top:8px;
+    right:18px;
+    font-size:13px;
+    text-align:right;
+}
+
+.page-head-line span a{
+    color:#62a315;
+    text-decoration:none;
+}
+
+.page-head-line span a:hover{
+    color:#ff0000;
+    text-decoration:none;
+}
 .btn {
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -345,4 +362,11 @@ footer a, footer a:hover {
 }
 .advert-table table tr td a img{
     width: 100%;
+}
+
+.soupon-can {
+    color: gray;
+    text-anchor: 1px;
+    font-size: 15px;
+    text-decoration: line-through;
 }

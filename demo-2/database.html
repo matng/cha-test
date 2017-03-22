@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]--> 
+    <title>检验检测认证公共服务平台</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="lib/navigation/css/style.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="lib/navigation/css/main.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="lib/classifyMenu/css/zzsc.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="lib/carouselFigure/css/yx_rotaion.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/search/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="lib/productList/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="lib/productList/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="lib/productList/css/template.css" />
+     <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- header begin -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    欢迎光临，请先<a><span style="color: red">登录</span></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;我的订单 &nbsp;&nbsp;| &nbsp;&nbsp;购物车
+                   
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero" style="height: 150px">
+        <div class="container  header-center">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="images/logo.png" width="210" style="margin-left: -7px;padding-right: 3px"/>
+                </a>
+
+            </div>
+
+            <div class="left-div">
+                <div style="width:530px;margin:75px auto;">
+                    <div class="search_box">
+                    <span class="left l_bg"></span>
+                    <span class="right r_bg"></span>
+                        <div class="search">
+                        <form name=search_form onSubmit="return bottomForm(this);" target="_blank" method=post>
+                            <div id="pt1" class="select">
+                            <a id="s0">全部分类</a>
+                            <div style="display:none;" id="pt2" class="part"> 
+                                <p>
+                                <a id="s1">检测认证</a>
+                                </p>
+                            </div>
+                            </div> 
+                        <input id="catid" name="catid" type="hidden" value="7">
+                        <input id="q" class="enter" name="infos" onFocus="if(this.value=='检测'){this.value='';}else{this.select();}this.style.color='black';"  value="检测">
+                        <input class="sb" name="Input" type="submit" value="">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="header">
+                        <div class="header_navigation">
+                            <ul class="mainmenuslide" id="navigation">
+                                <li><a href="index.html" alt="">首页</a></li>
+                                <li><a href="test.html" alt="">检测</a></li>
+                                <li><a href="authentication.html" alt="">认证</a></li>
+                                <li><a href="equipment.html" alt="">仪器共享</a></li>
+                                <li><a href="expert.html" alt="">专家咨询</a></li>
+                                <li><a href="database.html" alt="" style="color: red">资料库</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- classifyMenu -->
+    <div class="warpper">
+        <div class="col-md-2">
+            <div id="nav">
+                <div class="mod_cate_hd">
+                    　服务产品分类
+                </div>             
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="content-wrapper">
+        <div class="container">           
+            <div class="row">
+                
+            </div>
+            <!-- 检测服务  -->            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="current_place">您现在的位置：<a href="index.html">全部</a> &gt;&gt; 检测</div>
+                    <!--左侧菜单开始-->
+                    <div id="product_left">
+                        <div id="product_catList">
+                            <div class="product_catList_top">浏览同级分类</div>
+                            <div id="product_catList_class"><!--使用javaScript显示图书分类--></div>
+                        </div>                     
+                    </div>
+                    <div id="product_storyList">
+                        <div id="product_storyList_top">
+                            <div class="product_sort_title">
+                               <table>
+                                   <tr style="font-size: 13px;">
+                                       <td style="border-bottom: 1px solid #e8e8e8;">综合排序</td>
+                                       <td>成交量&nbsp;<i class="fa fa-sort" aria-hidden="true"></i></td>
+                                       <td>信用&nbsp;<i class="fa fa-sort" aria-hidden="true"></i></td>
+                                       <td>价格&nbsp;<i class="fa fa-sort" aria-hidden="true"></i></td>
+                                   </tr>
+                               </table>
+                                
+                            </div>
+                            <div class="product_sort_title" style="float: right;">
+                                <table>
+                                   <tr>
+                                        <td style="font-size: 12px;width: 100px;">
+                                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                            &nbsp;&nbsp;1&nbsp;/&nbsp;50&nbsp;&nbsp;
+                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                        </td>
+                                   </tr>
+                               </table>
+                            </div>
+                        </div>
+
+                        <!--产品排列开始-->
+                        <div id="product_storyList_content" class="product_storyList_content">
+                            <!--列表开始-->
+                            <div class="product_storyList_content_left">
+                                <img src="images/product/product_list_01.jpg" alt="服务列表"/>
+                            </div>
+                            <div class="product_storyList_content_right">
+                                <ul>
+                                    <li class="product_storyList_content_dash"><a href="#" class="blue_14">私募（首部披露资本博弈秘密的金融小说）</a></li>
+                                    <li>用户评分：<img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_gray.gif" alt="star"/></li>
+                                    <li>作　者：<a href="#" class="blue_14">郭现杰</a> 著</li>
+                                    <li>出版社：<a href="#" class="blue_14">花山文艺出版社</a></li>
+                                    <li>出版时间：2009年08月</li>
+                                    <li>数年前，在一次股市的多、空之战中，以赵云狄、林康为首的私募基金―金鼎投资，和以王雨龙为首的私募基金，达成锁仓协议分食利益。殊料，以王雨龙为首的私募基金―鑫利投资背信弃义，导致金鼎投资惨败。以至...</li>
+                                    <li>
+                                        <dl class="product_content_dd buyBtn">
+                                            <dd><img src="images/product/inputCar.png" alt="shopping"/></dd>
+                                            <dd><img src="images/product/buyBtn.png" alt="shopping"/></dd>
+                                            <dd>节省：￥13.10</dd>
+                                            <dd>折扣：<span>59折</span></dd>
+                                            <dd class="footer_dull_red"><span>￥18.90</span></dd>
+                                            <dd class="product_content_delete"><span>￥32.00</span></dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product_storyList_content_bottom"></div>
+                            <!--列表开始-->
+                            <div class="product_storyList_content_left"><img src="images/product/product_list_02.jpg" alt="图书列表"/></div>
+                            <div class="product_storyList_content_right">
+                                <ul>
+                                    <li class="product_storyList_content_dash"><a href="#" class="blue_14">圈子圈套.1.战局篇 </a></li>
+                                    <li>用户评分：<img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red2.gif" alt="star"/></li>
+                                    <li>作　者：<a href="#" class="blue_14">王强 </a> 著</li>
+                                    <li>出版社：<a href="#" class="blue_14">清华大学出版社</a></li>
+                                    <li>出版时间：2006年01月</li>
+                                    <li>虽然没有硝烟，却比战场更血腥；虽然并未战死，却比死亡更痛苦。 洪钧从一个底层的销售人员，成为一家著名的跨国公司的中国区代理首席代表，在即将被扶正，事业情感都志得意满的时候，掉入俞威设计的圈套，...</li>
+                                    <li>
+                                        <dl class="product_content_dd buyBtn">
+                                            <dd><img src="images/product/inputCar.png" alt="shopping"/></dd>
+                                            <dd><img src="images/product/buyBtn.png" alt="shopping"/></dd>
+                                            <dd>节省：￥8.90</dd>
+                                            <dd>折扣：<span>68折</span></dd>
+                                            <dd class="footer_dull_red"><span>￥19.10</span></dd>
+                                            <dd class="product_content_delete"><span>￥28.00</span></dd>
+                                        </dl>
+                                    　</li>
+                                </ul>
+                            </div>
+                            <div class="product_storyList_content_bottom"></div>
+                            <!--列表开始-->
+                            <div class="product_storyList_content_left"><img src="images/product/product_list_03.jpg" alt="图书列表"/></div>
+                            <div class="product_storyList_content_right">
+                                <ul>
+                                    <li class="product_storyList_content_dash"><a href="#" class="blue_14">饕餮（最真实的商场高端博弈小说）  </a></li>
+                                    <li>用户评分：<img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/></li>
+                                    <li>作　者：<a href="#" class="blue_14">韦帕　 </a> 著</li>
+                                    <li>出版社：<a href="#" class="blue_14">国际文化出版公司</a></li>
+                                    <li>出版时间：2009年07月</li>
+                                    <li>北京，六百公里处，有宝地，233亩，土地价值2.5亿，总投资额近八亿，利润近三亿。　　项目吸引了众多北京房地产商目光，其中最贪婪的一道目光，来自顾忱。但顾忱，总资产不过千万！想拿项目，无异于“空手套...</li>
+                                    <li>
+                                        <dl class="product_content_dd buyBtn">
+                                            <dd><img src="images/product/inputCar.png" alt="shopping"/></dd>
+                                            <dd><img src="images/product/buyBtn.png" alt="shopping"/></dd>
+                                            <dd>节省：￥8.40</dd>
+                                            <dd>折扣：<span>74折</span></dd>
+                                            <dd class="footer_dull_red"><span>￥23.60</span></dd>
+                                            <dd class="product_content_delete"><span>￥32.00</span></dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product_storyList_content_bottom"></div>
+                            <!--列表开始-->
+                            <div class="product_storyList_content_left"><img src="images/product/product_list_04.jpg" alt="图书列表"/></div>
+                            <div class="product_storyList_content_right">
+                                <ul>
+                                    <li class="product_storyList_content_dash"><a href="#" class="blue_14">圈子圈套 迷局篇2：职场商战三部曲  </a></li>
+                                    <li>用户评分：<img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/></li>
+                                    <li>作　者：<a href="#" class="blue_14">王强 </a> 著</li>
+                                    <li>出版社：<a href="#" class="blue_14">长江文艺出版社</a></li>
+                                    <li>出版时间：2006年08月</li>
+                                    <li>《圈子圈套2・迷局篇》是“圈子圈套三部曲”的第二部。 职场风云再起。洪钧出任维西尔中国区总经理，他和俞威之间的较量又或明或暗地展开来，面对内部的纷争和商场上的尔虞我诈，他该如何出招……俞威依...</li>
+                                    <li>
+                                        <dl class="product_content_dd buyBtn">
+                                            <dd><img src="images/product/inputCar.png" alt="shopping"/></dd>
+                                            <dd><img src="images/product/buyBtn.png" alt="shopping"/></dd>
+                                            <dd>节省：￥11.4</dd>
+                                            <dd>折扣：<span>59折</span></dd>
+                                            <dd class="footer_dull_red"><span>￥16.60</span></dd>
+                                            <dd class="product_content_delete"><span>￥28.00</span></dd>
+                                        </dl>
+                    　              </li>
+                                </ul>
+                            </div>
+                            <div class="product_storyList_content_bottom"></div>
+                            <!--列表开始-->
+                            <div class="product_storyList_content_left"><img src="images/product/product_list_05.jpg" alt="图书列表"/></div>
+                            <div class="product_storyList_content_right">
+                                <ul>
+                                    <li class="product_storyList_content_dash"><a href="#" class="blue_14">圈子圈套3.终局篇（附赠王强演讲光盘）  </a></li>
+                                    <li>用户评分：<img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_red.gif" alt="star"/><img src="images/product/star_gray.gif" alt="star"/></li>
+                                    <li>作　者：<a href="#" class="blue_14">王强 </a> 著</li>
+                                    <li>出版社：<a href="#" class="blue_14">长江文艺出版社</a></li>
+                                    <li>出版时间：2007年10月</li>
+                                    <li>本书全景展示了商场和职场的生死厮杀、巅峰对决。主人公的命运、项目结局、所有的爱恨情仇都在本书中揭开谜底。 再次陷入低谷的洪钧在内忧外患中不甘消沉，在职场上和自己的上司明争暗斗，在商场上则和夙...</li>
+                                    <li>
+                                        <dl class="product_content_dd buyBtn">
+                                            <dd><img src="images/product/inputCar.png" alt="shopping"/></dd>
+                                            <dd><img src="images/product/buyBtn.png" alt="shopping"/></dd>
+                                            <dd>节省：￥13.10</dd>
+                                            <dd>折扣：<span>59折</span></dd>
+                                            <dd class="footer_dull_red"><span>￥18.9</span></dd>
+                                            <dd class="product_content_delete"><span>￥32.00</span></dd>
+                                        </dl>
+                                　  </li>
+                                </ul>
+                            </div>
+                            <div class="product_storyList_content_bottom"></div>
+
+                            <div>
+                                <dl class="product_content_dd">
+                                    <dd><img src="images/product/OK.gif" alt="ok"/></dd>
+                                    <dd>页</dd>
+                                    <dd><input name="page" type="text" value="1" style="width:20px;"/></dd>
+                                    <dd>跳转到第</dd>
+                                    <dd><img src="images/product/next.gif" alt="ok"/></dd>
+                                    <dd>
+                                        <ul id="product_page">
+                                            <li><a href="#" class="product_page">1</a></li>
+                                            <li><a href="#" class="product_page">2</a></li>
+                                            <li> <a href="#" class="product_page">3</a></li>
+                                            <li> ...</li>
+                                            <li><a href="#" class="product_page">14</a></li>
+                                            <li><a href="#" class="product_page">15</a></li>
+                                            <li><a href="#" class="product_page">16</a></li>
+                                        </ul>
+                                    </dd>
+                                    <dd><img src="images/product/product_page_up.gif" alt="ok"/></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <!-- 检测服务 End --> 
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2017 贵州宏信达高新科技有限责任公司
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery-1.11.1.js"></script> -->
+    <script type="text/javascript" src="lib/navigation/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lib/navigation/js/jquery.mainmenuslide.js"></script>
+    <script type="text/javascript" src="lib/classifyMenu/js/jquery.SuperSlide.2.1.1.js"></script>
+
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.yx_rotaion.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="lib/search/js/common.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          /*  $("#navigation").mainmenuslide({
+                fx: "backout",
+                speed: 700,
+                click: function(event, menuItem) {
+                    console.log(23);
+                    return true;
+                }
+            });*/
+        });
+
+        $("#nav .tit").slide({
+            type:"menu",
+            titCell:".mod_cate",
+            targetCell:".mod_subcate",
+            delayTime:0,
+            triggerTime:10,
+            defaultPlay:false,
+            returnDefault:true
+        });
+        /* 轮播图 */
+        $(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+
+</body>
+</html>
