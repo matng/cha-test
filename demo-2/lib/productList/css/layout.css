@@ -196,6 +196,7 @@ body{
 }
 .buyBtn img{
     width:110px;
+    margin-left: -15px;
 }
 .product_content_delete{
     text-decoration:line-through;
