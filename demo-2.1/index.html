@@ -1,0 +1,1469 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]--> 
+    <title>检验检测认证公共服务平台</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="lib/navigation/css/style.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="lib/navigation/css/main.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="lib/classifyMenu/css/zzsc.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="lib/carouselFigure/css/yx_rotaion.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/search/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/detection.css" />   
+    <link rel="stylesheet" type="text/css" href="assets/css/approve.css" />
+     <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="font-family: 'Microsoft YaHei';">
+    <!-- header begin -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    欢迎光临，请先<a><span style="color: red">登录</span></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;我的订单 &nbsp;&nbsp;| &nbsp;&nbsp;购物车
+                   
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero" style="height: 150px">
+        <div class="container  header-center">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="images/logo.png" width="210" style="margin-left: -7px;padding-right: 3px"/>
+                </a>
+
+            </div>
+
+            <div class="left-div">
+                <div style="width:530px;margin:75px auto;">
+                    <div class="search_box">
+                    <span class="left l_bg"></span>
+                    <span class="right r_bg"></span>
+                        <div class="search">
+                        <form name=search_form onSubmit="return bottomForm(this);" target="_blank" method=post>
+                            <div id="pt1" class="select">
+                            <a id="s0">全部分类</a>
+                            <div style="display:none;" id="pt2" class="part"> 
+                                <p>
+                                <a id="s1">检测认证</a>
+                                </p>
+                            </div>
+                            </div> 
+                        <input id="catid" name="catid" type="hidden" value="7">
+                        <input id="q" class="enter" name="infos" onFocus="if(this.value=='检测'){this.value='';}else{this.select();}this.style.color='black';"  value="检测">
+                        <input class="sb" name="Input" type="submit" value="">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="float: left;margin:-32px 0 0 56px;width: 200px;height: 100px;">
+                <a href="coupon.html" target="_blank">
+                    <img src="images/coupon.jpg" width="300" height="100">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="header">
+                        <div class="header_navigation">
+                            <ul class="mainmenuslide" id="navigation">
+                                <li><a href="index.html" alt="">首页</a></li>
+                                <li><a href="test.html" alt="">检测</a></li>
+                                <li><a href="authentication.html" alt="">认证</a></li>
+                                <li><a href="equipment.html" alt="">仪器共享</a></li>
+                                <li><a href="expert.html" alt="">专家咨询</a></li>
+                                <li><a href="database.html" alt="">资料库</a></li>
+                                <!-- <li><a href="blank2.html" alt="">关于我们</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- classifyMenu -->
+    <div class="warpper">
+    <div class="col-md-2">
+    <div id="nav">
+        <div class="mod_cate_hd">
+            　服务产品分类
+        </div>
+        <ul class="tit">
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">检测</a><a href="#">认证服务</a><a class="hot_sub" href="#">检测券</a></h2>
+                <p class="mod_cate_r"><a href="#">食品</a><a href="#">材料</a><a href="#">水质</a><a href="#">汽车尾气</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>材料检测</dt>
+                            <dd>
+                                
+                                <a href="#">成分分析</a>
+                               
+                                <a href="#">盐雾试验</a><a href="#">硬度</a><a href="#">密度</a><a href="#">拉伸性能</a><a href="#">压缩性能</a><a href="#">熔点</a><a href="#">剥离强度</a><a href="#">涂料测试</a><a href="#">氙灯老化</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>食品检测</dt>
+                            <dd>
+                                <a href="#">塑化剂</a><a href="#" class="org">食品接触材料</a><a href="#">三聚氰胺</a><a href="#">LFGB</a><a href="#">农药/兽药残留</a><a href="#">食品营养标签</a><a href="#">食品添加剂</a><a href="#">转基因</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>水质检测</dt>
+                            <dd>
+                                <a href="#">硬度</a><a href="#" class="org">化学需氧量COD</a><a href="#">生化需氧量BOD5</a><a href="#">电导率</a><a href="#">色度</a><a href="#">溶解性总固体</a><a href="#">PH值</a>
+                                <a href="#">氨氮</a><a href="#">臭和味</a><a href="#">菌落总数</a>
+                            </dd>
+                        </dl>                                                                                      
+                        <dl>
+                            <dt>亚洲认证</dt>
+                            <dd>
+                                <a href="#">CCC认证</a><a href="#" class="org">PSE认证</a><a href="#">SASO认证</a><a href="#">SAA认证</a><a href="#">ISI认证</a><a href="#" class="org">CQC认证</a><a href="#">KC认证</a>
+                                <a href="#">VCCI认证</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>体系认证</dt>
+                            <dd>
+                                <a href="#">GMP认证</a><a href="#" class="org">HACCP认证</a><a href="#">SA8000认证</a><a href="#">OHSAS18000认证</a><a href="#">ISO14001认证</a><a href="#" class="org">GAP认证</a><a href="#">ISO9001认证</a>
+                                <a href="#">ISO13485认证</a>
+                            </dd>
+                        </dl>
+                        
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>检测频道</b><i class="arrow_dot"></i></a><a class="mod_btn_arrow" href="#"><b>认证频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/26.jpg" /></a></li><br/>
+                            <li><a href="#"><img src="images/27.jpg" /></a></li><br/>
+                            <li><a href="#"><img src="images/28.jpg" /></a></li>
+                        
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul class="mod_subcate_side_hotlist">
+                            
+                            <a href="#"><img src="images/30.gif" /></a>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">仪器</a><a href="#">设备共享</a><a class="hot_sub" href="#">共享券</a></h2>
+                <p class="mod_cate_r"><a href="#">分析</a><a href="#">化学仪器</a><a href="#">物理仪器</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">气相色谱</a><a href="#">质谱</a><a href="#">测厚仪</a><a href="3">核磁共振波谱仪</a><a href="#">红外光谱仪</a><a href="#">紫外可见分光光度计</a>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>化学仪器</dt>
+                            <dd>
+                                <a href="#" title="质谱仪器">质谱</a>
+                                <a href="#" title="气相色谱仪器">气相色谱</a>
+                                <a href="#" title="红外光谱仪">红外光谱仪</a>
+                                <a href="#" title="液相色谱仪器">液相色谱</a>
+                                <a href="#" title="紫外可见分光光度计">紫外可见分光光度计</a>
+                                <a href="#" title="核磁共振波谱仪">核磁共振波谱仪</a>
+                                <a href="#" title="X射线衍射仪">X射线衍射仪</a>
+                                <a href="#" title="碳硫分析仪">碳硫分析仪</a>
+
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>物理仪器</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title=" 热重分析仪"> 热重分析仪</a>
+                                    <a href="#" title="X射线探伤仪">X射线探伤仪</a>
+                                    <a href="#" title="激光粒度仪">激光粒度仪</a>
+                                    <a href="#" title="差示扫描量热仪">差示扫描量热仪</a>
+                                    <a href="#" title="拉力试验机">拉力试验机</a>
+                                    <a href="#" title="老化试验箱">老化试验箱</a>
+                                    <a href="#" title="测厚仪">测厚仪</a>
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环境检测仪器</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="氨氮测定仪">氨氮测定仪</a>
+                                    <a href="#" title="TOC总有机碳分析仪">TOC总有机碳分析仪</a>
+                                    <a href="#" title="COD测定仪">COD测定仪</a>
+                                    <a href="#" title="测氡仪">测氡仪</a>
+                                    <a href="#" title="噪声监测仪">噪声监测仪</a>
+                                    <a href="#" title="水质毒性分析仪">水质毒性分析仪</a>
+                                    <a href="#" title="藻类计数仪">藻类计数仪</a>
+
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>光学仪器</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="工业显微镜">工业显微镜</a>
+                                    <a href="#" title="折光仪">折光仪</a>
+                                    <a href="#" title="白度仪">白度仪</a>
+                                    <a href="#" title="激光测距仪">激光测距仪</a>
+                                    <a href="#" target="_blank" title="扫描电镜">扫描电镜</a>
+                                    <a href="#" title="X射线能谱仪">X射线能谱仪</a>
+                                    <a href="#" title="扫描探针显微镜">扫描探针显微镜</a>
+
+
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>恒温/加热/干燥设备</dt>
+                            <dd>
+                                <div>
+                                    <a href="#" title="烘箱">烘箱</a>
+                                    <a href="#" title="马弗炉">马弗炉</a>
+                                    <a href="#" title="水浴锅">水浴锅</a>
+                                    <a href="#" title="临界点干燥仪">临界点干燥仪</a>
+                                    <a href="#" title="喷雾干燥机">喷雾干燥机</a>
+                                    <a href="#" title="电热套">电热套</a>
+                                    <a href="#" title="恒温槽">恒温槽</a>
+                                </div>
+                            </dd>
+                        </dl>
+                                                                        
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>化学仪器频道</b><i class="arrow_dot"></i></a><a class="mod_btn_arrow" href="#"><b>物理仪器频道</b><i class="arrow_dot"></i></a>
+                        <a class="mod_btn_arrow" href="#"><b>光学频道</b><i class="arrow_dot"></i></a><a class="mod_btn_arrow" href="#"><b>环境监测</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/30.jpg" /></a></li>
+                            <li><a href="#"><img src="images/31.jpg" /></a></li>
+                            <li><a href="#"><img src="images/32.jpg" /></a></li>                
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/37.gif" /></a></li>   
+                        </ul>
+                       
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">专家</a><a href="#">咨询服务</a><a class="hot_sub" href="#">人才库</a></h2>
+                <p class="mod_cate_r"><a href="#">认证</a><a href="#">仪器设备</a><a href="#">技术</a><a href="#">其他</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">全部</a><a href="#">研发项目管理</a><a class="org" href="#">注册安全工程师</a><a href="3">TCL</a><a href="#">安全评价</a><a href="#">安全培训</a><a class="org" href="#">消防安全</a>
+                                <a href="#">环境影响评价</a><a class="org" href="#">能源审计</a>
+                                
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>检测认证专家</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <li><a href="#">冯晓青</a></li>
+                                    <li><a href="#">于文杰</a></li>
+                                    <li><a href="#">刘晟</a></li>
+                                    <li><a href="#">黄文耀</a></li>
+                                    <li><a href="#">马良清</a></li>
+                                    <li><a href="#">赵欣刚</a></li>
+                                    <li><a href="#">许璐</a></li>
+                                    <li><a href="#">楼才英</a></li>
+                                    <li><a href="#">杨志清</a></li>
+                                    <li><a href="#">曹丽勤</a></li>
+                                    <li><a href="#">卢鸯</a></li>
+                                    <li><a href="#">叶翔宇</a></li>
+                                    <li><a href="#">王博</a></li>
+     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>仪器设备专家</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <li><a href="#">姜金锁</a></li>
+                                    <li><a href="#">陈建华</a></li>
+                                    <li><a href="#">何继龙</a></li>
+                                    <li><a href="#">梅永红</a></li>
+                                    <li><a href="#">孔令雷</a></li>
+                                    <li><a href="#">桑临春</a></li>
+                                    <li><a href="#">易锋</a></li>
+                                    <li><a href="#">赵清万</a></li>
+                                    <li><a href="#">陈华栋</a></li>
+                                    <li><a href="#">孙卫国</a></li>
+                                    <li><a href="#">周杰</a></li>
+                                    <li><a href="#">王常青</a></li>
+                                    <li><a href="#">刘建龙</a></li>
+     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环保</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <li><a href="#">张汉东</a></li>
+                                    <li><a href="#">潘洋</a></li>
+                                    <li><a href="#">柳冬静</a></li>
+                                    <li><a href="#">曹元礼</a></li>
+                                    <li><a href="#">邓毅</a></li>
+                                    <li><a href="#">王成</a></li>
+                                    <li><a href="#">王定友</a></li>
+                                    <li><a href="#">周树华</a></li>
+      
+      
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        
+
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>专家咨询服务频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">知名专家</div>
+                        <ul class="mod_subcate_side_brand clearfix" style="font-size:10px;">
+                            <li><a href="#"><img src="images/zhd.png" /></a><p>张汉东</p></li>
+                            <li><a href="#"><img src="images/py.jpg" style="margin-left:10px;" /></a><p>潘洋</p></li>
+                            <li><a href="#"><img src="images/ldj.jpg"  /></a><p>柳冬静</p></li>
+                            <li><a href="#"><img src="images/cyl.jpg" /></a><p>曹元礼</p></li>                                                        
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/37.png" /></a></li>
+                        </ul>
+                           
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">技术</a><a href="#">咨询服务</a></h2>
+                <p class="mod_cate_r"><a href="#">质量</a><a href="#">安全</a><a href="#">环境</a><a href="#">其他</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">全部</a><a href="#">研发项目管理</a><a class="org" href="#">注册安全工程师</a><a href="3">TCL</a><a href="#">安全评价</a><a href="#">安全培训</a><a class="org" href="#">消防安全</a>
+                                <a href="#">环境影响评价</a><a class="org" href="#">能源审计</a>
+                                
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>质量技术</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="供应链管理">供应链管理</a>
+                                    <a href="#" title="精益生产">精益生产</a>
+                                    <a href="#" title="六西格玛">六西格玛</a>
+                                    <a href="#" title="全面质量管理">全面质量管理</a>
+                                    <a href="#" title="全面风险管理">全面风险管理</a>
+                                    <a href="#" title="研发项目管理">研发项目管理</a>     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>安全</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="注册安全工程师">注册安全工程师</a>
+                                    <a href="#" title="职业卫生">职业卫生</a>
+                                    <a href="#" title="安全评价">安全评价</a>
+                                    <a href="#" title="安全培训">安全培训</a>
+                                    <a href="#" title="消防安全">消防安全</a>        
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环保</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="环境影响评价">环境影响评价</a>
+                                    <a href="#" title="能源审计">能源审计</a>
+                                    <a href="#" title="上市环保核查">上市环保核查</a>
+                                    <a href="#" title="清洁生产审核">清洁生产审核</a>
+                                    <a href="#" title="竣工环保验收">竣工环保验收</a>
+                                    <a href="#" title="环保项目咨询">环保项目咨询</a>      
+      
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>其它</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="法规注册">法规注册</a>
+                                    <a href="#" title="实验室信息管理系统">实验室信息管理系统</a>
+                                    <a href="#" title="验厂验货">验厂验货</a>
+                                    <a href="#" title="供应商审核">供应商审核</a>       
+      
+                                </div>
+                            </dd>
+                        </dl>
+
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>技术咨询服务频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/36.jpg" /></a></li>
+                            <li><a href="#"><img src="images/37.jpg" /></a></li>
+                            <li><a href="#"><img src="images/38.jpg" /></a></li>
+                            <li><a href="#"><img src="images/39.jpg" /></a></li>
+                            
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/fz.gif" /></a></li>
+                        </ul>
+                           
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">政府</a><a href="#">创新优惠券</a></h2>
+                <p class="mod_cate_r"><a href="#">检测</a><a href="#">认证</a><a href="#">仪器</a><a href="#">其他</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>热门推荐</dt>
+                            <dd>
+                                <a href="#">全部</a><a href="#">研发项目管理</a><a class="org" href="#">注册安全工程师</a><a href="3">TCL</a><a href="#">安全评价</a><a href="#">安全培训</a><a class="org" href="#">消防安全</a>
+                                <a href="#">环境影响评价</a><a class="org" href="#">能源审计</a>
+                                
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>质量技术</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="供应链管理">供应链管理</a>
+                                    <a href="#" title="精益生产">精益生产</a>
+                                    <a href="#" title="六西格玛">六西格玛</a>
+                                    <a href="#" title="全面质量管理">全面质量管理</a>
+                                    <a href="#" title="全面风险管理">全面风险管理</a>
+                                    <a href="#" title="研发项目管理">研发项目管理</a>     
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>安全</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="注册安全工程师">注册安全工程师</a>
+                                    <a href="#" title="职业卫生">职业卫生</a>
+                                    <a href="#" title="安全评价">安全评价</a>
+                                    <a href="#" title="安全培训">安全培训</a>
+                                    <a href="#" title="消防安全">消防安全</a>        
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>环保</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="环境影响评价">环境影响评价</a>
+                                    <a href="#" title="能源审计">能源审计</a>
+                                    <a href="#" title="上市环保核查">上市环保核查</a>
+                                    <a href="#" title="清洁生产审核">清洁生产审核</a>
+                                    <a href="#" title="竣工环保验收">竣工环保验收</a>
+                                    <a href="#" title="环保项目咨询">环保项目咨询</a>      
+      
+                                </div>
+                            </dd>
+                        </dl>
+                        
+                        <dl>
+                            <dt>其它</dt>
+                            <dd>
+                                <div class="menu-list-link">
+                                    <a href="#" title="法规注册">法规注册</a>
+                                    <a href="#" title="实验室信息管理系统">实验室信息管理系统</a>
+                                    <a href="#" title="验厂验货">验厂验货</a>
+                                    <a href="#" title="供应商审核">供应商审核</a>       
+      
+                                </div>
+                            </dd>
+                        </dl>
+
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>技术咨询服务频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门品牌</div>
+                        <ul class="mod_subcate_side_brand clearfix">
+                            <li><a href="#"><img src="images/36.jpg" /></a></li>
+                            <li><a href="#"><img src="images/37.jpg" /></a></li>
+                            <li><a href="#"><img src="images/38.jpg" /></a></li>
+                            <li><a href="#"><img src="images/39.jpg" /></a></li>
+                            
+                            
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul>
+                            <li><a href="#"><img src="images/ck.jpg" /></a></li>
+                        </ul>
+                           
+                    </div>
+                </div>
+            </li>
+            <li class="mod_cate">
+                <h2><i class="arrow_dot fr"></i><a href="#">资料库</a><a class="hot_sub" href="#">资料百科</a></h2>
+                <p class="mod_cate_r"><a href="#">检测专题</a><a href="#">性能分析</a></p>
+                <div class="mod_subcate">
+                    <div class="mod_subcate_main">
+                        <dl>
+                            <dt>检测资料</dt>
+                            <dd>
+                                <a class="org" href="#">水中铅、镉、铬的定量分析报告</a><a href="#">基于高光谱成像技术的水果品质</a>
+                            </dd>
+                        </dl>
+                        <div class="mod_subcate_channel"><a class="mod_btn_arrow" href="#"><b>资料频道</b><i class="arrow_dot"></i></a></div>
+                    </div>
+                    <div class="mod_subcate_side">
+                        <div class="mod_subcate_side_hd">热门推荐</div>
+                        <ul class="mod_subcate_side_brand clearfix" style="font-size:10px;">
+                            <li><a href="#"><img src="images/ICP.png" /></a><p>微波消解法结合ICP技术测定金属矿</p></li>
+                            <li><a href="#"><img src="images/dlz.png" /></a><p>等离子体质谱法测定乳制品中总碘</p></li>
+                        </ul>
+                        <div class="mod_subcate_side_hd">热门活动</div>
+                        <ul class="mod_subcate_side_hotlist">
+                            <li><a href="#">如何选购一只适合自己使用的移液器</a></li>
+                            <li><a href="#">二氧化碳传感器的几种检测方法</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
+       <!--  <div class="mod_cate2">
+           <h2><a href="#">QQ网购</a><a class="yel" href="#">彩票</a><a href="#">充值</a></h2>
+           <p class="mod_cate_r"><a href="#">美妆</a><a href="#">旅游</a><a href="#">票务</a><a class="yel" href="#">站长素材</a></p>
+       </div>  -->
+       
+    </div>
+    </div>
+    <div class="col-md-10">
+        <div style="margin: -10px 0 0 7px;float: left; height: 400px;";>
+            <div class="yx-rotaion">
+                <ul class="rotaion_list">
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/1.jpg" class="carousel" alt="贵州人自己的检测平台上线啦"></a></li>
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/2.jpg" class="carousel" alt="这里填写广告标题"></a></li>
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/3.jpg" class="carousel" alt="检查服务"></a></li>
+                    <li><a href="http://sc.chinaz.com/jiaoben/"><img src="lib/carouselFigure/uploads/4.jpg" class="carousel" alt="科学公正"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="notice-board" style="float:right;width:250px;margin-top:-10px;padding-right: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="display: block;">
+               新闻公告
+                </div>
+                <div class="panel-body" style="height: 155px">
+                    <ul >
+                        <li><a href="#">聚优检互联网+在线交易平台上线</a></li>
+                        <li><a href="#">分析2016年仪器行业经济运行情况</a></li>
+                        <li><a href="#">贵州将建成环境监测大数据平台</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="notice-board" style="float:right;width:250px;margin-top:-10px;padding-right: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="display: block;">
+               专题推荐
+                </div>
+                <div class="panel-body" style="height: 155px">
+                    <ul >
+                        <li><a href="#">聚优检互联网+在线交易流程介绍</a></li>
+                        <li><a href="#">聚优检互联网+在线交易流程介绍</a></li>
+                        <li><a href="#">聚优检互联网+在线交易流程介绍</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+    <div class="content-wrapper">
+        <div class="container">           
+            <div class="row">
+                <div class="col-md-12 advert-table">
+                    <table>
+                        <tr>
+                            <td><a href="#"><img src="images/35.jpg"/></a></td>
+                            <td><a href="#"><img src="images/29.jpg"/></td>
+                            <td><a href="#"><img src="images/34.jpg"/></td>
+                            <td><a href="#"><img src="images/27.jpg"/></td>
+                            <td><a href="#"><img src="images/advert.png"/></td>
+                        </tr>
+                    </table>                   
+                </div>
+            </div>
+            <!-- 检测服务  -->            
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">检测服务<span><a href="#">&gt;&gt;更多</a></span></h4>
+                </div>
+                <div class="col-md-12">
+                    <table  class="all-detection">
+                        <tr class="all-detection-tr-1">
+                            <td class="all-detection-td-1">
+                                <a href="#">食品添加剂</a>
+                            </td>
+                            <td class="all-detection-td-1">
+                                <a href="#">电线电缆</a>
+                            </td>
+                            <td colspan="3" rowspan="5" class="all-detection-td-2">
+                                
+                                <a href="detail.html" target="_blank">                                    
+                                    <img src="images/cjs.jpg"/>
+                                    <span>专业提供饮用纯净水委托检验检测服务</span>
+                                </a>
+                                <p class="all-detection-price">&#65509;3050 <span class="soupon-can">&#65509;3500</span></p>
+                                
+                                
+                                <p class="all-detection-string">技术检测与标准认证服务_检测</p>
+                                <p class="all-detection-string">贵州宏信达检测咨询有限公司</p>                               
+                            </td>
+                            <td rowspan="8" class="all-detection-td-3">
+                                <a href="detail.html" target="_blank">
+                                    <img src="images/water.jpg"/>
+                                    <span>专业提供山泉水委托检验检测服务</span>                                    
+                                </a>
+                                <p class="all-detection-price">&#65509;2635 <span class="soupon-can">&#65509;3199</span></p>
+                                
+                                
+                                <p class="all-detection-string">技术检测与标准认证服务_检测</p>
+                                <p class="all-detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td colspan="3" rowspan="5" class="all-detection-td-4">
+                                <a href="detail.html" target="_blank">                                    
+                                    <img src="images/led.jpg"/>
+                                    <span>专业提供LED路灯产品RoHS认证服务</span>
+                                </a>
+                                <p class="all-detection-price">&#65509;2500 <span class="soupon-can">&#65509;3199</span></p>
+                                
+                                <p class="all-detection-string">技术检测与标准认证服务_检测</p>
+                                <p class="all-detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="all-detection-td-1">
+                                <a href="#">变压器</a>
+                            </td >
+                            <td class="all-detection-td-1">
+                                <a href="#">橡胶制品</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="all-detection-td-1">
+                                <a href="#">电力变压器</a>
+                            </td>
+                            <td class="all-detection-td-1">
+                                <a href="#">食用菌</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="all-detection-td-1">
+                                <a href="#">干式变压器</a>
+                            </td>
+                            <td class="all-detection-td-1">
+                                <a href="#">塑料制品</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="all-detection-td-1">
+                                <a href="#">电器控制设备</a>
+                            </td>
+                            <td class="all-detection-td-1">
+                                <a href="#">测量仪器</a>
+                            </td>
+                        </tr>
+                        
+                        <tr class="all-detection-tr-2"> 
+                            
+                            <td class="all-detection-td-1"> 
+                                <a href="#">技术检测与标准认证服务</a>
+                            </td>
+                            <td class="all-detection-td-1"> 
+                                <a href="#">社会公共安全设备及器材</a>
+                            </td>
+                            <td>    
+                                <a href="#">
+                                    <img src="images/szs.jpg"/>                                                                 
+                                </a>
+                            </td>                           
+                            <td>
+                                <a href="#">
+                                    <img src="images/jzd.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/gas.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/gold.gif"/>                                                                    
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/cqc.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/zgkxy.gif"/>                                                                   
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <tr class="all-detection-tr-2">
+                            <td class="all-detection-td-1"> 
+                                <a href="#">抵压开关、保护控制设备</a>
+                            </td>
+                            <td class="all-detection-td-1"> 
+                                <a href="#">研究与试验发展服务</a>
+                            </td>
+                            
+                            <td>
+                                <a href="#">
+                                    <img src="images/aac.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/td2.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/td3.jpg"/>                                                                 
+                                </a>
+                            </td>   
+                            <td>
+                                <a href="#">
+                                    <img src="images/xhr.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/swqc.gif"/>                                                                    
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/che.jpg"/>                                                                 
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <tr class="all-detection-tr-2">
+                            <td class="all-detection-td-1"> 
+                                <a href="#">建筑材料及制品专用生产机</a>
+                            </td>
+                            <td class="all-detection-td-1"> 
+                                <a href="#">化学原料及化学制品</a>
+                            </td>
+                            
+                            <td>
+                                <a href="#">
+                                    <img src="images/td4.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/td6.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/td7.jpg"/>                                                                 
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/ma.gif"/>                                                                  
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/hv.jpg"/>                                                                  
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/th.jpg"/>                                                                  
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>          
+            </div>        
+            <!-- 检测服务 End -->  
+
+            <!-- 认证服务  -->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">认证服务<span><a href="#">&gt;&gt;更多</a></span></h4>
+                </div>
+                <div class="approve-all col-md-12">
+                    <table class="approve-table col-md-12" hight="400px" border="1" bordercolor="#FFFFFF" cellspacing="0" cellpadding="0">
+                      <tr class="approve-table-tr1">
+                        <td class="approve-introduce-td1 col-md-2">
+                          <ul class="introduce-ul">
+                            <li><a href="#">CCC认证</a></li>
+                            <li><a href="#">PSE认证</a></li>
+                            <li><a href="#">SASO认证</a></li>
+                            <li><a href="#">SAA认证</a></li>
+                            <li><a href="#">ISI认证</a></li>
+                            <li><a href="#">CQC认证</a></li>
+                            <li><a href="#">VCCI认证</a></li>
+                            <li><a href="#">KC认证</a></li>
+                          </ul></td>
+                        <td rowspan="3" class="approve-tr1-td1 col-md-8">
+                            <div class="col-md-12 approve-det">
+                                <div class="col-md-8 img-det-l"> 
+                                    <!--<a href="#"> <img src="images/approve/668148_1.jpg" class="img-big"/> </a> <span class="img-refer">上海英格尔认证</span> <a href="#"><img src="images/approve/680875_1.png" class="img-big"/></a> <span class="img-refer">中国CCC认证</span> -->
+                                    <div style="margin: -10px 0 0 -10px;float: left; height: 250px;">
+                                        <div class="yx-rotaion">
+                                            <ul class="rotaion_list">
+                                              <li><a href="http://sc.chinaz.com/jiaoben/"><img src="images/approve/7dd98d102.jpg"class="approve-car" alt="HACCP认证"></a></li>
+                                              <li><a  href="http://sc.chinaz.com/jiaoben/"><img src="images/approve/ac4bd1.jpg"class="approve-car" alt="SAA认证"></a></li>
+                                              <li><a  href="http://sc.chinaz.com/jiaoben/"><img src="images/approve/b8389b.jpg" class="approve-car" alt="GMP认证"></a></li>
+                                              <li><a  href="http://sc.chinaz.com/jiaoben/"><img src="images/approve/d6ca7bcb.jpg" class="approve-car" alt="ISO9001认证"></a></li>
+                                            </ul>
+                                         </div>
+                                    </div>
+                                    <div class="approve-news">
+                                        <span>认证服务信息</span>
+                                        <ul>
+                                            <li><a href="#">强制性产品认证证书暂停、撤销、注销公告</a></li>
+                                            <li><a href="#">CISAW 认证授予、再认证、扩展、升级、缩小、降级、暂停、恢复、注销、撤销、预备人员转正程序</a></li>
+                                            <li><a href="#">3c认证快速入口</a></li>
+                                            <li><a href="#">ISO9001认证机构十大品牌</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 img-det-r"> <a href="#" class="img-big-r"> <img src="images/approve/591471_1.jpg" /> </a> <span class="img-refer">GOOD MANUFACTURING PRACTICE </span> <a href="#" class="img-big-r"><img src="images/approve/642398_1.jpg" /></a> <span class="img-refer">Saudi Arabian Standards Organization</span> <a href="#" class="img-big-r"><img src="images/approve/679120_1.jpg" /></a> <span class="img-refer">ISO9001</span> </div>
+                          </div>
+                          <div class="col-md-12 approve-base"  >
+                            <ul class="img-base">
+                              <li><a href="#"><img src="images/approve/112177_0.jpg" class="img-base-li"/></a></li>
+                              <li><a href="#"><img src="images/approve/656313_1.jpg" class="img-base-li"/></a></li>
+                              <li><a href="#"><img src="images/approve/117167_0.jpg" class="img-base-li"/></a></li>
+                              <li><a href="#"><img src="images/approve/20151009_101856.gif" class="img-base-li"/></a></li>
+                            </ul>
+                          </div></td>
+                        <td rowspan="2" class="approve-tr1-td1 col-md-2">
+                            <div class="recom">
+                              <span class="recom-span">热门推荐</span>
+                              <div class="orr-hr"></div>
+                              <ul>
+                                <li><a href="#"><img src="images/approve/680875_1.png" /><span class="recom-refer">中国CCC认证</span></a>
+                                    
+                                </li>
+                                <li><a href="#"><img src="images/approve/679120_1.jpg" /><span class="recom-refer">ISO9001</span></a>
+                                    
+                                </li>
+                                <li><a href="#" >江西ISO14001体系认证环境检测</a></li>
+                                <li><a href="#" >沙特SASO认证</a></li>
+                                <li><a href="#" ><span>ISO13485医疗器械 质量管理体系认证</a></li>
+                              </ul>
+                            </div>
+                         </td>
+                      </tr>
+                      <tr class="approve-table-tr2">
+                        <td class="approve-introduce-td1 col-md-2">
+                          <ul class="introduce-ul">
+                            <li><a href="#">GMP认证</a></li>
+                            <li><a href="#">HACCP认证</a></li>
+                            <li><a href="#">SA8000认证</a></li>
+                            <li><a href="#">ISO14001认证</a></li>
+                            <li><a href="#">GAP认证</a></li>
+                            <li><a href="#">ISO13485认证</a></li>
+                            <li><a href="#">ISO9001认证</a></li>
+                          </ul></td>
+                      </tr>
+                      <tr class="approve-table-tr3">
+                        <td class="approve-introduce-td1 col-md-2">
+                          <ul class="introduce-ul">
+                            <li><a href="#">TL9000 认证</a></li>
+                            <li><a href="#">GJB9001认证</a></li>
+                            <li><a href="#">IRIS</a></li>
+                            <li><a href="#">GOST认证</a></li>
+                            <li><a href="#">CRCC认证</a></li>
+                            <li><a href="#">MD认证</a></li>
+                            <li><a href="#">GS认证</a></li>
+                            <li><a href="#">LVD认证</a></li>
+                          </ul></td>
+                        <td >
+                            <div class="new-serve">
+                                <span class="new-serve-span">最新服务</span>
+                                <div class="orr-hr"></div>
+                                  <ul class="new-sa">
+                                    <li><a href="#">义乌GS认证</a></li>
+                                    <li><a href="#">PSE认证</a></li>
+                                    <li><a href="#">VCCI认证</a></li>
+                                    <li><a href="#">GOST-R认证</a></li>
+                                    <li><a href="#">MD认证</a></li>
+                                  </ul>
+                             </div>
+                         </td>
+                      </tr>
+                    </table>
+                </div>   
+            </div>       
+            <!-- 认证服务 End -->  
+
+            <!-- 仪器设备  -->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">仪器设备<span><a href="#">&gt;&gt;更多</a></span></h4>
+                </div>
+                <div class="col-md-12">
+                    <table class="detection-table">
+                        <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="images/111.jpg"/>
+                                    <span>专业提供蛋白类委托检验(检测)服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 2000 <span class="soupon-can">&#65509;50</span></p>
+                                
+                                
+                                <p class="detection-string">技术检测与标准认证服务_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/112.jpg"/>
+                                    <span>专业提供干式变压器产品检验检测服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 1900 <span class="soupon-can">&#65509;40</span></p>
+                                
+                                <p class="detection-string">干式变压器_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/113.jpg"/>
+                                    <span>专业提供饮用纯净水委托检验检测服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 3000 <span class="soupon-can">&#65509;30</span></p>
+                                
+                                <p class="detection-string">饮用纯净水_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/114.jpg"/>
+                                    <span>专业提供食用菌委托检验(检测)服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 1300 <span class="soupon-can">&#65509;60</span></p>
+                                
+                                <p class="detection-string">食用菌_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/115.jpg"/>
+                                    <span>专业提供发酵性豆制品检验(检测)服务</span>                                 
+                                </a>
+                                <p class="detection-price">￥ 2800 <span class="soupon-can">&#65509;80</span></p>
+                                
+                                <p class="detection-string">发酵性豆制品_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                        </tr>
+                        
+                         <tr>
+                            <td>
+                                <a href="#">
+                                    <img src="images/116.jpg"/>
+                                    <span>专业提供蛋白类委托检验(检测)服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 2500 <span class="soupon-can">&#65509;3199</span></p>
+                                
+                                
+                                <p class="detection-string">技术检测与标准认证服务_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/117.jpg"/>
+                                    <span>专业提供干式变压器产品检验检测服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 3900 <span class="soupon-can">&#65509;40</span></p>
+                                
+                                <p class="detection-string">干式变压器_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/118.jpg"/>
+                                    <span>专业提供饮用纯净水委托检验检测服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 1500 <span class="soupon-can">&#65509;30</span></p>
+                                
+                                <p class="detection-string">饮用纯净水_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/119.jpg"/>
+                                    <span>专业提供食用菌委托检验(检测)服务</span>                                  
+                                </a>
+                                <p class="detection-price">￥ 3200 <span class="soupon-can">&#65509;50</span></p>
+                                
+                                <p class="detection-string">食用菌_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="images/110.jpg"/>
+                                    <span>专业提供发酵性豆制品检验(检测)服务</span>                                 
+                                </a>
+                                <p class="detection-price">￥ 2000 <span class="soupon-can">&#65509;60</span></p>
+                                
+                                <p class="detection-string">发酵性豆制品_检测</p>
+                                <p class="detection-string">贵州宏信达检测咨询有限公司</p>
+                            </td>
+                        </tr>
+                        
+                    </table>                 
+                </div>          
+            </div>      
+            <!-- 仪器设备 End -->
+
+             <!-- 专家库  -->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">专家库<span><a href="#">&gt;&gt;更多</a></span></h4>
+                </div>
+                <div class="col-md-12 specialist">
+                    <table class="col-md-12" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td  colspan="4">
+                                <div class="spe-list" >
+                                    <div class="spe-list-d">
+                                    <span class="spe-l-x">著名检测认证专家</span>
+                                    <ul>
+                                        <li><a href="#">王定友</a></li>
+                                        <li><a href="#">潘洋</a></li>
+                                        <li><a href="#">柳冬静</a></li>
+                                        <li><a href="#">张汉东</a></li>
+                                        <li><a href="#">曹元礼</a></li>
+                                        <li><a href="#">邓毅</a></li>
+                                    </ul>
+                                    </div>
+                                    <div class="spe-list-d">
+                                    <span class="spe-l-x">著名仪器认证专家</span>
+                                    <ul>
+                                        <li><a href="#">桑临春</a></li>
+                                        <li><a href="#">西春生</a></li>
+                                        <li><a href="#">王博</a></li>
+                                        <li><a href="#">梅永红</a></li>
+                                        <li><a href="#">孙卫国</a></li>
+                                        <li><a href="#">易锋</a></li>
+                                        <li><a href="#">周树华</a></li>
+                                    </ul>
+                                    </div>
+                                    <div class="spe-list-d">
+                                    <span class="spe-l-x">国际认证专家</span>
+                                    <ul>
+                                        <li><a href="#">赵清万</a></li>
+                                        <li><a href="#">周杰</a></li>
+                                        <li><a href="#">许璐</a></li>
+                                        <li><a href="#">康军</a></li>
+                                        <li><a href="#">代传银</a></li>
+                                        <li><a href="#">马良清</a></li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                
+                            </td>
+                           
+                            <td rowspan="3" class="specialist-introduce">
+                                <div class="spe-qu">
+                                    <span>专家问答</span>
+                                    <div class="orr-hr"></div>
+                                    <ul>
+                                        <li><a href="#">什么是欧盟REACH法规？</a></li>
+                                        <li><a href="#">工业废水检测标准？</a></li>
+                                        <li><a href="#">厂房结构安全检测鉴定报告怎么办理？</a></li>
+                                        <li><a href="#">饮用水常规检测项目有哪些？</a></li>
+                                        <li><a href="#">PC塑胶怎么做可以过UL94v-0认证？</a></li>
+                                        <li><a href="#">哪里可以做钢材成分分析，牌号判定？</a></li>
+                                    </ul>
+                                </div>
+                                <div class="spe-ph">
+                                    <span>热门咨询排行</span>
+                                    <div class="orr-hr"></div>
+                                    <ul>
+                                        <li><a href="#">工厂噪音检测标准</a></li>
+                                        <li><a href="#">工业废水检测标准？</a></li>
+                                        <li><a href="#">嘉音牌超声波频率检测仪</a></li>
+                                        <li><a href="#">饮用水常规检测项目有哪些？</a></li>
+                                        <li><a href="#">电子测量设备外校图</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="specialist-img">
+
+                                <a href="#"><img src="images/approve/100014_1.jpg" class="spe-img-size"></a>
+                                <p>潘洋</p>
+                                <p class="spec-s">浙江师范大学</p>
+
+                            </td>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100183_1.jpg" class="spe-img-size"></a>
+                                <p>西春生</p>
+                                <p class="spec-s">四川大学</p>
+
+                            </td>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100179_1.jpg"class="spe-img-size"></a>
+                                <p>桑临春</p>
+                                <p class="spec-s">南京工业大学</p>
+                            </td>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100184_1.jpg" class="spe-img-size"></a>
+                                <p>易锋</p>
+                                <p class="spec-s">南京化工大学</p>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100186_1.jpg" class="spe-img-size"></a>
+                                <p>赵清万</p>
+                                <p class="spec-s">中国科学技术大学</p>
+
+                            </td>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100188_1.jpg" class="spe-img-size"></a>
+                                <p>曹元礼</p>
+                                <p class="spec-s">青岛科技大学</p>
+
+                            </td>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100191_1.jpg" class="spe-img-size"></a>
+                                <p>黄文耀</p>
+                                <p class="spec-s">中国农业大学</p>
+                            </td>
+                            <td class="specialist-img">
+                                <a href="#"><img src="images/approve/100193_1.jpg" class="spe-img-size"></a>
+                                <p>王成</p>
+                                <p class="spec-s">四川理工学院</p>
+                            </td>
+                            
+                        </tr>
+                        
+                        
+                    </table>                   
+                </div>
+            </div>      
+            <!-- 专家库 End -->
+            
+            <!-- 资料库  -->  
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="page-head-line">资料库<span><a href="#">&gt;&gt;更多</a></span></h4>
+                </div>
+                <div class="col-md-12">
+                    <table class="col-md-12" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td class="col-md-9"> 
+                                <div class="docu">
+                                    <span class="docu-h">文献资料</span>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/approve/CPSIA介绍.jpg">
+                                            <span>CPSIA介绍</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/E-mark认证中对EMC要求理解的偏差纠正.jpg">
+                                            <span>E-mark认证中对EMC要求理解的偏差纠正</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/GBT18801新旧版差异解读.jpg">
+                                            <span>GBT18801新旧版差异解读</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/ICP-AES法测定空气细颗粒物中的有害元素.jpg">
+                                            <span>ICP-AES法测定空气细颗粒物中的有害元素</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/TS16949最新规则讲解.jpg">
+                                            <span>TS16949最新规则讲解</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/超声波产品FCC PART18的测试方法.jpg">
+                                            <span>超声波产品FCC PART18的测试方法</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/欧洲EuP指令中有关照明产品的测试要求.jpg">
+                                            <span>欧洲EuP指令中有关照明产品的测试要求</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/沙特SASO认证制度.jpg">
+                                            <span>沙特SASO认证制度</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td class="col-md-3" rowspan="2">
+                                <div class="bor-rec">
+                                    <span class="docu-h">热门推荐</span>
+                                    <div class="orr-hr"></div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">贵金属检测技术汇总</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">汽车衡偏载检测方法解析</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">2017年全球化学品法规盘点（中国篇）</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">ISO的主要机构简介</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">日本VCCI认证的组织机构和认证流程介绍</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">UMTS 全球移动通讯系统论坛</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">BIPM 国际计量局</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                 <div class="bor-se">
+                                    <span class="docu-h">文献便捷查询</span>
+                                    <div class="orr-hr"></div>
+                                    <form action="" method="post" class="bor-form">
+                                        <table class="bor-t">
+                                            <tr>
+                                                <td class="bor-td1">关键字:</td>
+                                                <td><input type="text" name="" style="width:140px;"></input></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bor-td1">标准序号:</td>
+                                                <td><input type="text" name="" style="width:140px;"></input></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bor-td1">组织类别:</td>
+                                                <td>
+                                                    <select style="width:140px;" name="">
+                                                        <option value="" selected="selected">所有</option>
+                                                        <option value="">国家标准</option>
+                                                        <option value="">国际标准</option>
+                                                        <option value="">行业标准</option>
+                                                        <option value="">地方标准</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bor-td1">中标分类:</td>
+                                                <td>
+                                                    <select style="width:140px;" name="">
+                                                        <option value="" selected="selected">综合</option>
+                                                        <option value="">电子元器件与信息技术</option>
+                                                        <option value="">建材</option>
+                                                        <option value="">工程建设</option>
+                                                        <option value="">环境保护</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="bor-td2">
+                                                    <input type="submit" value="查询" style="width:40px;height=35px;background-color:#09F"></input>
+                                                </td>
+                                                <td class="bor-td2"><input type="button" value="帮助" style="width:40px;height=35px;background-color:#0C6 "></input></td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-9">
+                                <div class="publish">
+                                    <span class="docu-h">出版物</span>
+                                    <ul class="publish-i">
+                                        <li>
+                                            <a href="#"><img src="images/approve/100060_1.jpg">
+                                            <span>产业集群技术创新对技术性贸易壁垒的跨越</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/100050_1.jpg">
+                                            <span>中国质检工作手册：认证认可监管</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/100049_1.jpg">
+                                            <span>服务领域技术性贸易壁垒问题研究</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/approve/100017_1.jpg">
+                                            <span>新贸易壁垒论</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="publish-l">
+                                        <li>
+                                            <a href="#">中国农产品出口的绿色贸易壁垒研究</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">《技术性贸易壁垒协定》释义</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">农产品出口技术性贸易壁垒问题研究</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">我国农产品贸易TBT对策研究</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">应对技术性贸易壁垒的理论与实践</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">WTO框架下的贸易壁垒及应对机制研究</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                            
+                            
+                        </tr>
+                        
+                    </table>                    
+                </div>
+            </div>      
+            <!-- 资料库 End -->
+
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2017 贵州宏信达高新科技有限责任公司
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery-1.11.1.js"></script> -->
+    <script type="text/javascript" src="lib/navigation/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lib/navigation/js/jquery.mainmenuslide.js"></script>
+    <script type="text/javascript" src="lib/classifyMenu/js/jquery.SuperSlide.2.1.1.js"></script>
+
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.yx_rotaion.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="lib/search/js/common.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          /*  $("#navigation").mainmenuslide({
+                fx: "backout",
+                speed: 700,
+                click: function(event, menuItem) {
+                    console.log(23);
+                    return true;
+                }
+            });*/
+        });
+
+        $("#nav .tit").slide({
+            type:"menu",
+            titCell:".mod_cate",
+            targetCell:".mod_subcate",
+            delayTime:0,
+            triggerTime:10,
+            defaultPlay:false,
+            returnDefault:true
+        });
+        /* 轮播图 */
+        $(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+
+</body>
+</html>

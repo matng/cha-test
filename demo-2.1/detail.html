@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]--> 
+    <title>检验检测认证公共服务平台</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="lib/navigation/css/style.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="lib/navigation/css/main.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="lib/classifyMenu/css/zzsc.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="lib/carouselFigure/css/yx_rotaion.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/search/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="lib/productList/css/global.css" />
+    <link rel="stylesheet" type="text/css" href="lib/productList/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="lib/productList/css/template.css" />
+     <!-- HTML5 Shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- header begin -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    欢迎光临，请先<a><span style="color: red">登录</span></a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;我的订单 &nbsp;&nbsp;| &nbsp;&nbsp;购物车
+                   
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END-->
+    <div class="navbar navbar-inverse set-radius-zero" style="height: 150px">
+        <div class="container  header-center">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+
+                    <img src="images/logo.png" width="210" style="margin-left: -7px;padding-right: 3px"/>
+                </a>
+
+            </div>
+
+            <div class="left-div">
+                <div style="width:530px;margin:75px auto;">
+                    <div class="search_box">
+                    <span class="left l_bg"></span>
+                    <span class="right r_bg"></span>
+                        <div class="search">
+                        <form name=search_form onSubmit="return bottomForm(this);" target="_blank" method=post>
+                            <div id="pt1" class="select">
+                            <a id="s0">全部分类</a>
+                            <div style="display:none;" id="pt2" class="part"> 
+                                <p>
+                                <a id="s1">检测认证</a>
+                                </p>
+                            </div>
+                            </div> 
+                        <input id="catid" name="catid" type="hidden" value="7">
+                        <input id="q" class="enter" name="infos" onFocus="if(this.value=='检测'){this.value='';}else{this.select();}this.style.color='black';"  value="检测">
+                        <input class="sb" name="Input" type="submit" value="">
+                        </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="float: left;margin:-32px 0 0 56px;width: 200px;height: 100px;">
+                <img src="images/coupon.jpg" width="300" height="100">
+            </div>
+        </div>
+    </div>
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="header">
+                        <div class="header_navigation">
+                            <ul class="mainmenuslide" id="navigation">
+                                <li><a href="index.html" alt="">首页</a></li>
+                                <li><a href="test.html" alt="">检测</a></li>
+                                <li><a href="authentication.html" alt="">认证</a></li>
+                                <li><a href="equipment.html" alt="">仪器共享</a></li>
+                                <li><a href="expert.html" alt="">专家咨询</a></li>
+                                <li><a href="database.html" alt="">资料库</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- classifyMenu -->
+    <div class="warpper">
+        <div class="col-md-2">
+            <div id="nav">
+                <div class="mod_cate_hd">
+                    　服务产品分类
+                </div>             
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="content-wrapper">
+        <div class="container">           
+            <div class="row">
+                
+            </div>
+            <!-- 检测服务  -->            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="current_place">您现在的位置：<a href="index.html">全部</a> &gt;&gt; 详情</div>
+                    <!--左侧菜单开始-->
+                    <div id="product_left">
+                        <div id="product_catList">
+                            <div class="product_detail_top">热门机构推荐</div>
+                            <div id="product_detail_class"><!--使用javaScript显示图书分类-->
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="images/detail/30.jpg" title="天瑞仪器"></a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">天瑞仪器</a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="images/detail/31.jpg" title="德祥科技"></a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">德祥科技</a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="images/detail/32.jpg" title="古大·小天鹅"></a>
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">古大·小天鹅</a>
+                                        </td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"><img src="images/detail/36.jpg" title="华景咨询机构"></a>
+                                        </td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">华景咨询机构</a>
+                                        </td>                                        
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>                     
+                    </div>
+                    <div id="product_storyList">
+                        <div id="product_storyList_top">
+                            <div class="product_sort_title">
+                               <table>
+                                   <tr style="font-size: 13px;">
+                                       <td>&nbsp;<i class="glyphicon glyphicon-hand-right" aria-hidden="true"></i>&nbsp;进入官网</td>
+                                       <td>&nbsp;<i class="glyphicon glyphicon-user" aria-hidden="true"></i>&nbsp;联系我们</td>
+                                       <td>&nbsp;<i class="glyphicon glyphicon-star" aria-hidden="true"></i>&nbsp;加入收藏</td>
+                                   </tr>
+                               </table>
+                                
+                            </div>
+                            <!-- <div class="product_sort_title" style="float: right;">
+                                <table>
+                                   <tr>
+                                        <td style="font-size: 12px;width: 100px;">
+                                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                            &nbsp;&nbsp;1&nbsp;/&nbsp;50&nbsp;&nbsp;
+                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                        </td>
+                                   </tr>
+                               </table>
+                            </div> -->
+                        </div>
+
+                        <!--产品排列开始-->
+                        <div id="product_storyList_content" class="product_storyList_content">                            
+                            <!--列表开始-->
+                            <div class="product_storyList_content_left">
+                                <img src="images/detection/5.jpg" alt="服务列表"/>
+                            </div>
+                            <div class="product_detail_content_right">
+                                <ul>
+                                    <li class="product_storyList_content_dash"><a href="#" class="blue_14">饮用纯净水检测</a></li>
+                                    <li class="product_list_company">机构：贵州宏信创达检测咨询有限责任公司</li>
+                                    <li class=product_list_synopsis>
+                                        简介：1）施工前应对材料的品种、质量进行检查，测定水泥标号，检查砂石级配、含泥量及各种物理力学指标；
+                                        2）浇筑混凝土前应认真检查模板、支架、钢筋、预埋件和预留孔洞的情况
+                                        3）在搅拌及浇筑过程中，检查混凝土配合比和坍落度......
+                                    </li>
+
+                                    <li class="product_list_table">
+                                        <table>
+                                            <tr>
+                                                <td>费用标准：<span class="prodect_list_price">&#65509;4800</span></td>
+                                                <td>优惠：<span class="prodect_list_price">500~1000</span></td>
+                                                <td>好评率：<span class="prodect_list_price">91%</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>服务次数：<span>5000</span></td>
+                                                <td>好评：89</td>
+                                                <td>差评：23</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                    <li class="product_list_evalution">
+                                        用户评分：
+                                        <img src="images/product/star_red.gif" alt="star"/>
+                                        <img src="images/product/star_red.gif" alt="star"/>
+                                        <img src="images/product/star_red.gif" alt="star"/>
+                                        <img src="images/product/star_red.gif" alt="star"/>
+                                        <img src="images/product/star_gray.gif" alt="star"/>&nbsp;&nbsp;&nbsp;                               
+                                        全部评价(123)&nbsp;&nbsp;&nbsp;
+                                        好评(89)&nbsp;&nbsp;&nbsp;
+                                        追评(23)&nbsp;&nbsp;&nbsp;
+                                        中评(23)&nbsp;&nbsp;&nbsp;
+                                        差评(23)
+                                    </li>
+                                    <li class="buyBtn">
+                                        <img src="images/product/inputCar.png" alt="shopping"/>
+                                        <img src="images/product/buyBtn.png" alt="shopping"/>
+                                    </li>
+                                </ul>
+                            </div>
+                           
+
+                             <div>
+
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">描述详情</a></li>
+                                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">机构介绍</a></li>                                    
+                                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">用户评价(0)</a></li>
+                              </ul>
+
+                              <!-- Tab panes -->
+                              <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="home">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                机构名称：贵州宏信达检测咨询公司
+                                            </td>
+                                            <td>
+                                                企业性质：事业单位
+                                            </td>
+                                            <td>
+                                                供应信息：7条
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                所在地区：贵州省贵阳市
+                                            </td>
+                                            <td>
+                                                所属行业：各种技术检测
+                                            </td>
+                                            <td>
+                                                所在地址：白云区高海路949号
+                                            </td>
+                                            <td>
+                                                信誉等级：<img src="images/product/star_red.gif" alt="star"/>
+                                                          <img src="images/product/star_red.gif" alt="star"/>
+                                                          <img src="images/product/star_red.gif" alt="star"/>
+                                                          <img src="images/product/star_red.gif" alt="star"/>
+                                                          <img src="images/product/star_gray.gif" alt="star"/>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="product_detail_content_bottom"></div>
+                                    <div class="detail-content">
+                                        <table>
+                                            <tr>
+                                                <td><img src="images/detail/42.jpg" width="50%;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>目的：生活饮用水检验检测</td>                                               
+                                            </tr>
+                                            <tr>
+                                                <td>适用范围：生活饮用水检验检测</td>                                               
+                                            </tr>
+                                            <tr>
+                                                <td>依据标准：GB5749-2006《生活饮用水卫生标准</td>                                               
+                                            </tr>
+                                            <tr>
+                                                <td>检测项目:<br>
+                                                <img src="images/detail/40.jpg">
+                                                </td>                                               
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    收费标准： ①全项（106项） 27060.00元<br> 
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②小型集中式供水和分散式供水（14项）  1635.00元
+                                                </td>                                               
+                                            </tr>
+                                        </table>
+
+                                    </div>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane" id="profile">
+                                    <table>
+                                        <tr>
+                                            <td><img src="images/detail/41.jpg"></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-top: 20px;">
+                                                &nbsp;&nbsp;&nbsp;贵州宏信创达工程检测咨询有限公司其前身为贵州省交通规划勘察设计研究院试验检测中心（成立于2005年）。2016年1月28日，经贵阳市工商行政管理局批准，注册为独立的法人公司，为贵州省交通规划勘察设计研究院股份有限公司全资子公司。
+                                                  2009年12月公司通过了贵州省质量技术监督局计量认证评审并取得CMA认证认可，2010年4月公司取得了交通运输部公路水运工程试验检测机构公路工程综合甲级以及桥隧增项资质，2016年7月公司取得了质量管理体系、环境管理体系和职业健康安全管理体系认证，2017年2月取得了建设工程质量检测资质。公司作为贵州省交通系统科技创新、建设质量安全管理的基础平台之一，向社会提供科学、准确、客观、公正、满意的试验检测数据和相关技术服务工作，是一家具备独立检测能力、可向社会出具公正性数据的第三方试验检测机构。
+                                                  公司现有员工180余人（其中浙江办事处16人，云南办事处18人），其中硕士研究生40人，博士研究生2人，工程技术应用研究员4人，高级工程师专业技术人员25人，中级工程师专业技术人员41人。同时，公司拥有各类专业注册技术人员，其中注册公路（水运）试验检测工程师和助理试验检测师共113人，注册一级结构工程师1人，注册土木工程师（岩土）1人，注册咨询工程师4人、注册造价工程师2人、注册安全工程师2人，是一支专业设置齐全、技术力量雄厚、业务水平精良、思想作风过硬的复合型科研检测队伍。
+                                                  公司下设有市场经营部、生产管理部、质量管理部、综合部、财务部、人力资源部等六个职能部门以及道路工程中心、结构工程中心、岩土与地下工程中心、工程试验中心、工程技术开发中心等五个专业技术部门，同时分别在浙江和云南设置了办事处。公司及试验区域总面积约5000平方米，拥有如道路检测车、桥梁检测车、地质雷达（瑞典MALA、美国劳雷）、美国TST地质超前预报系统、莱卡测量机器人、桥梁承载能力无线检测系统等国内外先进的试验检测设备700余台（套）共计投入6000余万元。
+                                                  在公司领导及广大员工共同努力下，近年来取得了良好的成绩。公司先后获得了贵州省科学技术进步奖（二等）、贵州省公路学会奖（特等）等30余项；公司已申请发明专利和实用新型31项，其中7项发明专利，24项实用新型，参编国家标准1项、地方标准1项；公司执行董事吕晓舜同志获得贵州省第七届“优秀科技工作者”荣誉称号，总经理乔东华同志被授予第四批“市管专家”荣誉称号。
+                                                  公司将以恪守“科学、准确、公正、满意”的企业方针，积极打造专业技能和服务品质，建立健全现代企业制度，逐步形成一个以试验检测为基础，以科技创新为支撑的最具技术实力，最具公信力，最具影响力的综合性试验检测咨询机构。（2017年3月20日更新）
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="settings">
+                                    <img src="images/detail/43.png">
+                                </div>
+                              </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+            <!-- 检测服务 End --> 
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2017 贵州宏信达高新科技有限责任公司
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/jquery-1.11.1.js"></script> -->
+    <script type="text/javascript" src="lib/navigation/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="lib/navigation/js/jquery.mainmenuslide.js"></script>
+    <script type="text/javascript" src="lib/classifyMenu/js/jquery.SuperSlide.2.1.1.js"></script>
+
+    <script type="text/javascript" src="lib/carouselFigure/js/jquery.yx_rotaion.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="lib/search/js/common.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          /*  $("#navigation").mainmenuslide({
+                fx: "backout",
+                speed: 700,
+                click: function(event, menuItem) {
+                    console.log(23);
+                    return true;
+                }
+            });*/
+        });
+
+        $("#nav .tit").slide({
+            type:"menu",
+            titCell:".mod_cate",
+            targetCell:".mod_subcate",
+            delayTime:0,
+            triggerTime:10,
+            defaultPlay:false,
+            returnDefault:true
+        });
+        /* 轮播图 */
+        $(".yx-rotaion").yx_rotaion({auto:true});
+</script>
+
+</body>
+</html>

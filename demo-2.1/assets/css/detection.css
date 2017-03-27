@@ -1,0 +1,331 @@
+﻿
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* FREE GOOGLE FONT */
+
+.all-detection{
+	height:400px;
+	margin-bottom:10px;
+}
+.all-detection tr td{
+	width：20%;
+	border: 1px #F2F2F2 solid;
+}
+
+.all-detection-td-1{
+	width:94px;
+	height:38px;
+	color:white;
+	text-align:center;
+	font-size:13px;
+	font-weight:500;
+	font-family:"微软雅黑";
+	background-color:#62a315; 
+}
+
+.all-detection-td-1 a{
+	color:#fff;
+}
+
+.all-detection-td-1 a:hover{
+	color:red;
+}
+
+.all-detection-td-1  a img{
+	margin:10px 0 -3px 5px;
+}
+.all-detection-td-3 a img{
+    width: 216px;
+	height:216px;
+	margin:10px 0 -3px 5px;
+}
+
+.all-detection-td-1 a span{
+    display:block;
+	font-size:15px;
+	height:41px;
+	color:#333;
+	margin-top:10px;
+	font-weight:bold;
+
+}
+
+.all-detection-td-3 a span{
+    display:block;
+	font-size:15px;
+	height:41px;
+	color:#333;
+	margin-top:10px;
+	font-weight:bold;
+
+}
+
+.all-detection-td-1 a span:hover{
+    color:red;
+	text-decoration:none;
+}
+
+.all-detection-td-3 a span:hover{
+    color:red;
+	text-decoration:none;
+}
+
+.all-detection-td-1 a:hover{
+	text-decoration:none;
+}
+
+.all-detection-td-3 a:hover{
+	text-decoration:none;
+}
+
+.all-detection-price{
+	display:block;
+	font-size:22px;
+	color:#ff0f29;
+	font-style:'\5FAE\8F6F\96C5\9ED1','\534E\6587\7EC6\9ED1',MingLiu;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-weight:bold;
+	margin-left:14px;
+}
+
+.all-detection-sale{
+	width:210px;
+	margin-left:14px;
+}
+
+.all-detection-sale em{
+	display:block;
+	float:left;
+	height:24px;
+	line-height:24px;
+	color:#fff;
+	padding:0 8px;
+	margin-right:2px;
+	font-style:normal;
+	background-color:#62A315;
+}
+
+.all-detection-sale span{
+	display:block;
+	float:left;
+	height:24px;
+	line-height:23px;
+	color:#fff;
+	padding:0 8px;
+	margin-right:2px;
+	font-style:normal;
+	background-color:#ED1D71;
+	margin-left:5px;
+}
+
+.all-detection-string{
+	margin-top:5px;
+	float:left;
+	width:210px;
+	margin-left:14px;
+	color:#939393;
+	font-size:12px;
+	font-weight:bold;
+	white-space:nowrap;
+}
+
+.all-detection-td-2{
+	width:400px;
+	height:179px;
+}
+
+.all-detection-td-2 a span{
+	width:324px;
+	height:41px;
+	display:block;
+	font-size:15px;
+	margin-top:1px;
+	margin-left:14px;
+	font-weight:bold;
+	color:#333;
+}
+
+.all-detection-td-2 a span:hover{
+	color:red;	
+}
+
+.all-detection-td-2 a:hover{
+	text-decoration:none;	
+}
+
+.all-detection-td-2 a img{
+	width:120px;
+	height:120px;
+	float:right;
+	margin:0 0 -3px 16px;
+}
+
+.all-detection-tr-2 td{
+	width:123px;
+	height:70px;
+	text-align:center;
+}
+
+.all-detection-tr-2 td a img{
+	width:70px;
+	height:40px;
+}
+
+.all-detection-td-4{
+	width:400px;
+	height:179px;
+}
+
+.all-detection-td-4 a span{
+	width:330px;
+	height:41px;
+	display:block;
+	font-size:15px;
+	margin-top:1px;
+	margin-left:14px;
+	font-weight:bold;
+	color:#333;
+}
+
+.all-detection-td-4 a span:hover{
+	color:red;	
+}
+
+.all-detection-td-4 a:hover{
+	text-decoration:none;	
+}
+
+.all-detection-td-4 a img{
+	width:120px;
+	height:120px;
+	float:right;
+	margin:0 0 -3px 16px;
+}
+
+.all-detection-tr-4 td{
+	width:123px;
+	height:70px;
+	text-align:center;
+}
+
+.all-detection-tr-4 td a img{
+	width:100px;
+	height:60px;
+}
+
+
+.detection-table{
+	margin-bottom:10px;
+	
+}
+
+.detection-table tr td{
+	border: 2px #F2F2F2 solid;
+}
+
+.detection-table tr td a img{
+    width: 216px;
+	height:216px;
+	margin:10px 0 -3px 5px;
+}
+
+.detection-table tr td a span{
+    display:block;
+	font-size:15px;
+	height:41px;
+	color:#333;
+	margin-top:10px;
+	font-weight:bold;
+
+}
+
+.detection-table tr td a span:hover{
+    color:red;
+	text-decoration:none;
+}
+
+.detection-table tr td a:hover{
+	text-decoration:none;
+}
+
+.hotsub{
+	background:#62a315;
+	font-size:13px;
+	border-radius:9px;
+	padding:2px 8px;
+	margin-left:5px;
+	color:#ffffff;
+	font-weight:520;
+}
+
+.detection-price{
+	display:block;
+	font-size:22px;
+	color:#ff0f29;
+	font-style:italic;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-weight:bold;
+	margin-left:14px;
+}
+
+.detection-sale{
+	width:210px;
+	margin-left:14px;
+}
+
+.detection-sale em{
+	display:block;
+	float:left;
+	height:24px;
+	line-height:24px;
+	color:#fff;
+	padding:0 8px;
+	margin-right:2px;
+	font-style:normal;
+	background-color:#62A315;
+}
+
+.detection-sale span{
+	display:block;
+	float:left;
+	height:24px;
+	line-height:23px;
+	color:#fff;
+	padding:0 8px;
+	margin-right:2px;
+	font-style:normal;
+	background-color:#ED1D71;
+	margin-left:5px;
+}
+
+.detection-string{
+	margin-top:5px;
+	float:left;
+	width:210px;
+	margin-left:14px;
+	color:#939393;
+	font-size:12px;
+	font-weight:bold;
+	white-space:nowrap;
+	margin-bottom:5px;
+}

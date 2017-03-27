@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* CSS Document */
+.approve-all{
+	margin:10px 0px 10px 0px;
+	}
+.approve-table{}
+.approve-table-tr1{
+	}
+.approve-introduce-td1{
+	background-color:#ddd;
+	padding:10px 0px 0px 10px;}
+.introduce-span{
+	font-size:16px;
+	font-weight:bold;}
+.introduce-ul{
+	}
+.introduce-ul li{
+	float:left;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	}
+.introduce-ul li a{
+	font-size:9px;}
+	
+.approve-tr1-td1{}
+.approve-det{
+	height:420px;
+	}	
+.img-det-l{
+	height:420px;
+	margin:0 auto;}
+.img-det-r{
+	margin:0 auto;
+	text-align:center;
+	height:420px;
+	}
+.img-big{
+	height:160px;
+	width:200px;}
+.approve-base{
+	height:160px;
+	}	
+.img-base li{
+	float:left;
+	margin:0px 5px 0px 0px;
+	}
+.img-base-li{
+	height:140px;
+	width:160px;
+	}
+.img-refer{
+	display:block;
+	color:#33C;
+	font-weight:bold;
+	font-size:14px;
+	}
+.recom{
+	height:380px;
+	width:180px;}
+.recom li{
+	margin:0px 0px 10px 0px;
+	}	
+.recom-refer{
+	color:#33C;
+	font-weight:bold;
+	}
+.recom li a{
+	color:#33C;
+	font-weight:bold;
+	}	
+.new-serve{
+	height:180px;
+	width:180px;
+	}
+.recom-span{
+	font-size:16px;
+	font-weight:bold;
+	}
+.new-serve-span{
+	font-size:16px;
+	font-weight:bold;
+	}
+.new-sa li{
+	margin:0px 0px 10px 15px;
+	}
+.new-sa li a{
+	color:#33C;
+	font-weight:bold;
+	}
+.approve-car{
+	height:250px;
+	width:450px;}
+.approve-news span{
+	font-size:16px;
+	font-weight:bold;
+	margin:10px 0px 0px 0px;
+	}
+.approve-news li{
+	margin:10px 0px 0px 0px;
+	
+	}
+.approve-news li a{
+	color:#33C;
+	}
+
+/*专家栏*/
+.specialist-img{
+	height: 230px;
+	width: 215px;
+	text-align:center;
+	border: 1px #ddd dashed;
+	
+}
+.specialist-img p {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 0px 5px 0px;
+
+}
+.spec-s{
+	color: #939393;
+}
+.specialist-introduce span{
+	font-weight: bold;
+	font-size: 16px;
+}
+.specialist-introduce{
+	vertical-align: top;
+}
+
+.spe-img-size{
+	height: 160px;
+	width: 130px;
+}
+.spe-qu{
+	height: 340px;
+	margin: 15px 0px 0px 0px;
+
+}
+.spe-qu ul{
+	margin: 0px 0px 0px 25px;
+}
+.spe-qu li{
+	margin: 20px 0px 15px 0px;
+	list-style-type:square;
+
+}
+.spe-qu li a{
+	color: #333333;
+	font-size: 14px;
+
+}
+.spe-ph ul{
+	margin: 0px 0px 0px 35px;
+}
+.spe-ph li{
+	margin: 20px 0px 15px 0px;
+	list-style-type:decimal;
+}
+.spe-ph li a{
+	color: #333333;
+	font-size: 14px;
+}
+.spe-list{
+	height: 120px;
+	width: 750x;
+	background-color: #fffafa;
+	margin: 0px 17px 10px -1px;
+	border: 1px #ddd dashed;
+
+}
+
+
+.spe-list-d{
+	padding-left: 20px;
+	padding-top: 5px;
+	width: 260px;
+	height: 110px;
+	float: left;
+	margin-right: 10px;
+}
+.spe-list-d ul{
+	margin:10px 0px 0px 5px; 
+}
+.spe-list-d li{
+	float: left;
+	width: 70px;
+}
+.spe-list-d li a{
+	font-size: 14px;
+}
+.spe-l-x{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.docu img{
+	height: 120px;
+	width: 110px;
+	margin:0px 0px 10px 0px;
+}
+.docu ul{
+	margin-top: 10px;
+}
+.docu li span{
+	display: block;
+	color: "#333";
+	font-weight: bold;
+	font-size: 14px;
+}
+.docu li{
+	float: left;
+	width: 180px;
+	height: 175px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border: 1px #ddd dashed;
+	text-align: center;
+
+}
+.docu-h{
+	color: "#333";
+	font-weight: bold;
+	font-size: 16px;
+	margin:0px 0px 10px 0px;
+}
+.publish-i{
+	height: 160px;
+	
+}
+.publish-i li{
+	width: 180px;
+	height: 160px;
+	border: 1px #ddd dashed;
+	text-align: center;
+
+}
+.publish ul{
+	margin-top: 10px;
+}
+.publish li{
+	float: left;
+	width: 180px;
+	margin-right: 15px;
+
+
+}
+.publish li span{
+	display: block;
+	color: "#333";
+	font-weight: bold;
+	font-size: 14px;
+}
+.publish img{
+	height: 110px;
+	width: 110px;
+	margin:0px 0px 10px 0px;
+}
+
+.publish-l{
+	height: 80px;
+	margin-left: 15px;
+	
+}
+
+.publish-l li{
+	float: left;
+	width: 250px;
+	font-size: 14px;
+	margin-top: 10px;
+	list-style-type:square;
+}
+
+.bor-rec{
+	height: 370px;
+}
+.bor-rec ul{
+	margin: 15px 0px 0px 20px;
+}
+.bor-rec li{
+	margin: 10px 0px 15px 0px;
+	list-style-type:square;
+}
+.bor-rec li a{
+	font-size: 14px;
+}
+.bor-se{
+	height: 270px;
+}
+.bor-form{
+	margin-top: 20px;
+}
+.bor-t tr{
+	height: 35px;
+
+}
+.bor-t{
+	font-size: 14px
+}
+.bor-td1{
+	width: 70px;
+}
+.bor-td2{
+	text-align: center;
+}
+.orr-hr{
+	border-bottom: 1px dashed #ccc;
+    clear: both;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

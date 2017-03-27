@@ -22,7 +22,7 @@
 .up_load{ /*background:url(img/up_load.gif) no-repeat;*/ height:41px;}
 .up_load p{ cursor:pointer; line-height:41px; margin-left:1px}
 .up_load p a{display:block;float:left;text-align:center;padding-left:13px;padding-right:13px;color:#FFF;font-size:14px;background: #62a315 url(http://www.testrust.com/update/news/admin/20141103_152319.png) no-repeat right center;}
-.up_load p a:hover{ background:#176596}
+.up_load p a:hover{ background:#31CD31}
 
 .cluster{ padding:6px 0 0 0}
 .cluster_title{ font-size:14px; padding-left:10px}
