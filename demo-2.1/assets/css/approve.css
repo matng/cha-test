@@ -311,3 +311,23 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.blogroll {
+	height: 48px;
+}
+.blogroll-l{
+	font-size: 16px;
+	font-weight: 700;
+}
+.blogroll li{
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.blogroll li a{
+	font-size: 14px;
+    font-weight: 400;
+	color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
