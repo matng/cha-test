@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+/*主体*/
+.login{  /*text-indent:-2000em; */ height:26px; font-size:18px; cursor:pointer; padding-left:30px; padding-top:5px}
+.login_bg{ background:url(http://www.testrust.com/update/news/admin/20141023_151953.gif) no-repeat; }
+.login_bg2{ background:url(http://www.testrust.com/update/news/admin/20141023_152013.gif) no-repeat; }
+.news_img{ font-size:20px;}
+.news_img b{ font-family:"微软雅黑"; padding-left:8px; padding-right:5px}
+.news_img span.span1{ background:url(http://www.testrust.com/update/news/admin/20141017_163138.gif) no-repeat}
+.news_img span.span2{ background:url(http://www.testrust.com/update/news/admin/20141017_163213.gif) no-repeat right bottom}
+/*推荐专题*/
+.record{ padding:9px 0 5px 11px}
+.record b{ font-size:14px}
+.list_txt{ padding-left:11px; padding-bottom:5px}
+.list_txt li{ line-height:20px; height:20px; overflow:hidden}
+
+/*上部分中间的资讯*/
+.news_up{ text-align:center;}
+.news_up h3{ color:#2a7eba; padding-bottom:7px}
+.news_txt li{ font-size:14px; line-height:28px; height:28px; overflow:hidden}
+/*上部分右侧发布需求*/
+.up_load{ /*background:url(img/up_load.gif) no-repeat;*/ height:41px;}
+.up_load p{ cursor:pointer; line-height:41px; margin-left:1px}
+.up_load p a{display:block;float:left;text-align:center;padding-left:13px;padding-right:13px;color:#FFF;font-size:14px;background: #62a315 url(http://www.testrust.com/update/news/admin/20141103_152319.png) no-repeat right center;}
+.up_load p a:hover{ background:#31CD31}
+
+.cluster{ padding:6px 0 0 0}
+.cluster_title{ font-size:14px; padding-left:10px}
+.cluster_img{ text-align:center; padding-bottom:20px}
+.cluster_img li{ margin-bottom:3px}
+.cluster_img li a img{ width:225px; height:118px;padding:5px 6px 5px 6px;  background:#FFF; border:solid 1px #ecf0f1;}
+/*服务内容*/
+.service_c{ font-size:20px; background:url(http://www.testrust.com/update/news/admin/20141017_163239.gif) no-repeat; padding-left:12px}
+.service_c b{ font-family:"微软雅黑";}
+.service_ico span{ background:url(http://www.testrust.com/update/news/admin/20141017_163033.gif) no-repeat;  width:19px; color:#FFF; padding:3px 10px 3px 8px}
+.service_ico b{ font-size:14px;}
+.service_txt{ padding-left:27px; width:293px; margin-left:-5px; padding-top:6px}
+.service_txt li{  margin-left:5px; line-height:23px; }
+/*政策法规*/
+.tips_img{ text-align:center; padding-top:5px; margin-bottom:5px}
+.policy_title b{ font-size:14px}
+.policy_title span{ float:right}
+.policy_txt li{ line-height:23px; height:23px; overflow:hidden; padding-left:15px}
+.policy_txt2 li{ line-height:23px; height:23px; overflow:hidden;}
+.policy_txt3 li{ line-height:23px; height:23px; overflow:hidden; float:left; width:118px}
+.warning h3{ font-size:14px; color:#656565}
+.warning p{ color:#c2c2c2}
+.warning a{ color: #2B80B7;}
+/*专家库*/
+.data_p{ margin-left:-10px}
+.data_p li{ float:left; margin-left:23px; margin-bottom:10px; height:123px}
+.data_p li a img{ border: 1px solid #CCC; padding:1px}
+.data_p li p{ text-align:center}
+/*热门机构*/
+.hot li{ float:left; height:54px; }
+.hot li p{ line-height:20px; width:210px; overflow: hidden; height:20px; }
+.hot li.mr7{ margin-right:7px}
+.hot li.pt17{ padding-top:17px}
+.hot li img{ border:solid 1px #f3f4f6; border-width:0 1px 1px 1px}
+
+/*企业库*/
+.dfa li{ float:left}
+.dfa li.width367{ width:367px}
+.dfa li.width3671{ width:367px;margin-top: 20px;padding-left: 20px;font-size: 15px;}
+.dfa li.width3671 a{ color: #62a315;}
+.dfa li.width3671 a:hover{color: red;text-decoration: none;}
+.dfa li h3{ padding-top:16px; margin-bottom:6px}
+.dfa li p{ line-height:20px; color:#999999}
+.dfa li a.a1{ padding:20px 37px; background-color:#e5f1d8; display:block}
+.dfa li a.a1:hover{ background:#2a80b9}
+.dfa li a.a12{ background:#d4e6f2; display:block}
+.dfa li a.a12:hover{ background:#62a315}
+.pro_txt p{ line-height:23px; text-indent:2em; color:#999999}
+.pro_txt1 p{ line-height:23px; text-indent:2em; color:#62a315;}
+.pro_txt1 p a{color: #62a315;}
+.pro_txt1 p a:hover{color:red;text-decoration: none;}
+.contact li{ line-height:23px}
+.contact1 li{ background:url(http://www.testrust.com/update/news/admin/20141029_083734.gif) no-repeat 0 8px; padding-left:10px}
+.update{ margin-bottom:5px; padding-bottom:5px}
+.update li{ line-height:23px}
+/*服务平台*/
+.online_t{ background:#62a315;text-align:center; color:#FFF; font-size:14px}
+.s_online{ padding:20px 10px 20px 14px; }
+.s_online p{ text-indent:2em; line-height:23px}
+.online6 li{ float:left; margin-left:35px; }
+.online6 li a{ display:block;width:110px; padding-top:65px; padding-bottom:40px; text-align:center; font-size:14px; color:#ccc}
+.online6 li a.aa1{ background:url(http://www.testrust.com/update/news/admin/20141113_144704.png) no-repeat}
+.online6 li a.b1,.online6 li a.aa1:hover{ background:url(http://www.testrust.com/update/news/admin/20141113_121703.png) no-repeat;color:#FFF}
+
+.online6 li a.aa2{ background:url(http://www.testrust.com/update/news/admin/20141113_121558.png) no-repeat;}
+.online6 li a.b2,.online6 li a.aa2:hover{ background:url(http://www.testrust.com/update/news/admin/20141113_121739.png) no-repeat; color:#FFF}
+
+.online6 li a.aa3{ background:url(http://www.testrust.com/update/news/admin/20141113_121757.png) no-repeat}
+.online6 li a.b3,.online6 li a.aa3:hover{ background:url(http://www.testrust.com/update/news/admin/20141113_121836.png) no-repeat; color:#FFF}
+
+.online6 li a.aa4{ background:url(http://www.testrust.com/update/news/admin/20141113_121854.png) no-repeat}
+.online6 li a.b4,.online6 li a.aa4:hover{ background:url(http://www.testrust.com/update/news/admin/20141113_121911.png) no-repeat; color:#FFF}
+
+.online6 li a.aa5{ background:url(http://www.testrust.com/update/news/admin/20141113_121926.png) no-repeat}
+.online6 li a.b5,.online6 li a.aa5:hover{ background:url(http://www.testrust.com/update/news/admin/20141113_121941.png) no-repeat; color:#FFF}
+
+.online6 li a.aa6{ background:url(http://www.testrust.com/update/news/admin/20141113_121959.png) no-repeat}
+.online6 li a.b6,.online6 li a.aa6:hover{ background:url(http://www.testrust.com/update/news/admin/20141113_122014.png) no-repeat; color:#FFF}
+/*专家库*/
+.technician{ margin-left:-10px}
+.technician li{ float:left; margin-left:15px}
+.technician li p{ background:url(http://www.testrust.com/update/news/admin/20141113_122053.png) no-repeat; height:23px; line-height:23px; text-align:center; width:82px; margin-left:7px}
+.name_txt li a{ font-size:14px}
+.name_txt li a span{ font-size:12px}
+.name_txt li p{ float:left; height:20px; line-height:20px;padding:14px 0 14px 0; border:solid 1px #e4e4e4; border-width:0 1px 1px 0; overflow:hidden; width:153px; text-align:center}
+
+.name_txt2 li a{ font-size:14px}
+.name_txt2 li a span{ font-size:12px}
+.name_txt2 li p{ float:left; height:20px; line-height:20px;padding:14px 0 14px 0; border:solid 1px #e4e4e4; border-width:0 0 1px 1px; overflow:hidden; width:160px; text-align:center;}
+/*图片*/
+.p8-padding{padding:8px;}
+.rc_e li{width:133px;float:left;display:inline;text-align:center;margin-bottom:10px; line-height:20px}
+.rc_e li img{width:80px;height:100px;padding:1px;border:1px solid #ccc;}
+.rc_e p{text-align:center;width:120px;overflow:hidden;color:#666; height:18px; line-height:18px}
+
+/*下面文字*/
+.rc_e1{background:#f5f5f5;overflow:hidden;}
+.rc_e1 li{border-left: 1px solid #A7A7A7;display: inline;float: left;height: 18px;overflow: hidden; margin:4px 0 4px -1px;line-height:18px; padding-left:15px; padding-right:15px}
+
+/*行业活动*/
+.actively{ background:url(http://www.testrust.com/update/news/admin/20141029_083802.gif) no-repeat 0 26px; height:28px; line-height:20px; font-size:14px}
+.text li{ line-height:30px; font-size:14px; height:30px; overflow:hidden; background:url(http://www.testrust.com/update/news/admin/20141029_083833.gif) no-repeat 0 10px; padding-left:12px}
+.text2 li{overflow:hidden;  height:22px; line-height:22px; overflow:hidden}
+.text2 li span{ float:right}
+.speed{ margin-top:-15px}
+.speed li{ margin-top:23px; height:164px}
+.speed p{ height:18px;overflow:hidden; line-height:18px}
+/*入住机构*/
+.institution{background:url(http://www.testrust.com/update/news/admin/20141029_083856.gif) no-repeat 10px 15px;}
+.institution li{ line-height:30px; font-size:14px; padding-left:30px; height:30px; overflow:hidden}
+.r_institution{ margin-left:-20px}
+.r_institution li{ float:left; margin-left:20px; margin-top:10px}
+.r_institution li p{ float:left}
+/*检测认证*/
+.renz li{ float:left; margin-right:15px; line-height:23px}
+.renz li a{ color:#999999}
+/*.renz p.all{ width:33px; height:20px; background:#297eb7; text-align:center}*/
+.programme li{ float:left}
+.programme li.last1{ float:right; width:88px;line-height:29px;}
+.programme li.last1 a{ display:block; padding-top:2px; padding-bottom:2px; background:url(http://www.testrust.com/update/news/admin/20141107_100933.png) no-repeat; padding-left:3px}
+.programme li.last1 a img{ border:none; padding:0; margin-top:-4px}
+.programme li a img{ border:solid 1px #ecf0f1; padding:3px}
+.con_txt p{ margin-bottom:10px; line-height:23px; font-size:14px}
+.con_txt ul li{ line-height:23px}
+/*发布需求信息*/
+.show tr td{ padding-bottom:6px}
+.show td input.inpt3{ background:url(http://www.testrust.com/update/news/admin/20141029_083916.gif) no-repeat; border:0; height:28px; width:279px; text-indent:10px; line-height:28px}
+.rst_sumbit{background:url(http://www.testrust.com/update/news/admin/20141110_105940.png) no-repeat;width:125px;height:28px;cursor:pointer; border:0; color:#FFF; font-weight:bold; font-size:14px}
+/*标准库*/
+.stard li{ float:left; width:314px; line-height:25px; height:25px; overflow:hidden}
+.stard li a{ color:#666666}
+/*解决方案*/
+.solute h3{ background:url(http://www.testrust.com/update/news/admin/20141031_101010.gif) no-repeat; padding-left:25px}
+.solute p{ font-size:14px; line-height:23px; margin-top:10px}
+
+/*产业集群左边部分*/
+.pro li{ margin-left:1px; margin-right:1px;}
+.pro li a{ background:#f8fcff; display:block; height:30px; padding-top:6px; padding-bottom:6px; line-height:30px;padding-left:17px;
+font-weight:bold; font-size:14px; color:#5ba4db}
+.pro li a:hover{ background:#76b5e0; display:block; height:30px; padding-top:6px; padding-bottom:6px; line-height:30px;padding-left:17px;font-weight:bold; font-size:14px; color:#FFF}
+
+.pro li a span.quyu{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat 0 2px; height:29px; width:29px; padding:10px; margin-right:20px}
+.pro li a:hover span.quyu{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat -120px 2px; height:29px; width:29px; padding:10px; margin-right:20px}
+
+.pro li a span.quyu2{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat 0 -67px; height:29px; width:29px; padding:10px; margin-right:20px}
+.pro li a:hover span.quyu2{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat -120px -67px; height:29px; width:29px; padding:10px; margin-right:20px}
+
+.pro li a span.quyu3{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat 0 -140px; height:29px; width:29px; padding:10px; margin-right:20px}
+.pro li a:hover span.quyu3{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat -120px -140px; height:29px; width:29px; padding:10px; margin-right:20px}
+
+.pro li a span.quyu4{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat 0 -227px; height:29px; width:29px; padding:10px; margin-right:20px}
+.pro li a:hover span.quyu4{ background:url(http://www.testrust.com/update/news/admin/20141103_132518.png) no-repeat -120px -227px; height:29px; width:29px; padding:10px; margin-right:20px}
+
+.contact2{ line-height:25px}
+.contact2 li{ padding-left:15px; }
+/*产业集群效果*/
+.area{clear:both;visibility:hidden;}
+.head-slide{display:none;overflow:hidden;position:relative;}
+.current{display:block}
+/*土地储备*/
+.land p{ line-height:25px; text-indent:2em; margin-bottom:28px; font-size:14px}
+/*展开、隐藏*/
+
+.SubCategory{ border-bottom:dashed 1px #dddddd; float:left;padding-top:10px; padding-bottom:10px}
+.SubCategory h3{float:left;   font-size:14px; font-weight:normal; padding-top:3px; text-indent:12px; }
+.SubCategory h1{float:left;   font-size:14px; font-weight:normal; padding-top:3px; text-indent:12px;}
+.sub_txt{ width:854px; float:left; padding-right:10px}
+.sub_txt a{ margin-right:20px; line-height:20px; line-height:20px}
+
+.showmore{float:left; font-size:12px; text-indent:10px;}
+.showmore a span{ background:#62a315; width:33px;  height:20px; line-height:20px; padding-left:5px; padding-right:5px;color:#FFF; margin-right:15px}
+
+/*问题大厅*/
+.width_l{ width:157px;;}
+.title_ques{ height:33px;}
+.title_ques p{ float:left; line-height:33px; color:#898989}
+.title_ques p.p1{ width:480px; }
+.title_ques p.p2{ width:122px}
+.title_ques p.p3{ width:108px}
+.title_ques p.p4{ width:127px}
+.title_ques p.p5{ width:142px}
+ul.list{height:45px; border-bottom: dotted 1px #dfdfdf;overflow:hidden; margin-left:10px; margin-right:10px}
+ul.list li{ line-height:45px; float:left; font-size:14px}
+ul.list li.li1{ width: 460px; text-align:left; }
+ul.list li.li2{ width:122px; text-align:center}
+ul.list li.li3{ width:77px; text-align:center}
+ul.list li.li4{ width:114px; text-align:center}
+ul.list li.li5{ width:159px; text-align:center}
+ul.list li.li6{ width:119px; text-align:center}
+ul.score li{ line-height:45px;  border-bottom:dashed 1px #dfdfdf;height:45px;}
+ul.score li span{ float:right;margin-right:15px}
+.more1{float:right;line-height:45px;margin-right:30px}
+.reword{margin-left:20px;line-height:23px}
+/*问题大厅详细*/
+.issue{ border:solid 1px #e9e9e9; zoom:1; overflow:auto}
+.issue_title{ background:url(http://www.testrust.com/images/member/grey_ico.gif) repeat-x; height:60px}
+.issue_title p.title1{ float:left; padding-left:42px; color:#0166a5;width:500px;line-height:23px; padding-top:8px;overflow:hidden;height:45px; font-weight:bold; font-size:14px}
+.issue_title p{ float:right; width:191px; margin-right:10px; padding-top:27px}
+.issue_title2{ background:url(http://www.testrust.com/images/member/blue_bg.gif) repeat-x; height:35px; line-height:35px; padding-left:16px}
+.issue_title2 span{float:right;margin-right:10px}
+.answer_con{ padding:14px 7px 39px; background:#f8f8f8}
+.point{ height:28px; background:#ebeff2}
+.point p{ float:left; line-height:28px}
+.point p.pn{ width:420px; padding-left:6px}
+.point p.ps{ width:175px; text-indent:5px}
+.point p.ector{ float:right; margin-right:10px}
+.bgwhite{ background:#FFF; line-height:25px; padding:6px 15px 6px 6px; zoom:1; overflow:auto}
+.show_time{ height:31px; background:#e9e9e9; line-height:31px; padding-left:24px}
+.show_con{ height:70px; background:#fff7e2; border-bottom:solid 1px #cccbcb; margin-bottom:10px}
+
+ul.list2{ padding-top:10px; width:750px; }
+ul.list2 li{ float:left; width:178px; line-height:25px; height:25px; padding-left:24px}
+
+.cite{background:url(http://www.testrust.com/images/member/rwd.gif) no-repeat; color: #FF3300;height:100px;text-align: center; width:92px; margin-left:10px; }
+.cite span{display: block;font-size: 28px;height: 30px;margin: 26px auto 3px;}
+.cite2{background:url(http://www.testrust.com/images/member/score.gif) no-repeat; color: #FF3300;height:100px;text-align: center; width:92px; margin-left:10px; }
+.cite2 span{display: block;font-size: 28px;margin: 38px auto 3px;}
+/*解决问题*/
+.solute_txt li{ display:block; clear:both; line-height:33px; height:33px}
+.solute_txt li p{ float:left}
+.soluteico{ background:url(http://www.testrust.com/update/news/admin/20141113_095855.gif) no-repeat; height:19px; padding-left:30px; line-height:20px}
+.askico{ background:url(http://www.testrust.com/update/news/admin/20141113_095821.gif) no-repeat 0 3px; padding-left:25px}
+/*解答部分*/
+.comment_box3 {overflow:hidden;border-top:1px #f4f4f4 solid; text-align:center; padding-top:10px; }
+.comment_reply {overflow:hidden;}
+.comment_reply textarea {width:719px;height:186px;border:1px #dedad7 solid;padding:5px;}
+.comment_replylogin {padding-top:10px; width:675px; margin:0 auto; overflow:auto; padding-bottom:10px; text-align:left}
+.comment_replylogin li{ text-align:left; }
+.comment_replylogin li span.lastwidth{  line-height:24px}
+.comment_replylogin li.log{ line-height:23px}
+.comment_replylogin li span{ float:left; margin-right:5px;  display:block; padding-top:5px;}
+.comment_replylogin li span input{ height:25px}
+.comment_replylogin li input.show_ans{ background:url(http://www.testrust.com/images/member/answ.gif) no-repeat; color:#347b99; font-size:20px; font-weight:bold;  cursor:pointer; border:0; text-align:center; width:118px; height:37px; }
+/*媒体报道*/
+.i-txt li{ line-height:23px;}
+.i-txt li a{ color:#2a7eba}
+.coupon-string{
+	font-size: 12px;
+}
+
+.coupon-string i{
+	color: #62a315;
+/*图片切换*/
+
+/*.switch li{ height:25px; line-height:25px}*/
+/*.switch li p i{ position:absolute; left:0;bottom:0px; background:#000; height:25px; line-height:25px;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=65); -moz-opacity:.5; opacity:0.5;  z-index: 99; display:block;  font-style:normal; width:715px; text-indent:2em; width:735px}*/
+/*.switch li p i a{ color:#FFF}*/
+/*.nom1{ text-align:center}
+.nom1 a{ border:solid 1px #4a8bcd; padding:3px 6px; background:#77a8e2; margin-right:10px; color:#FFF;}
+.nom1 a.fistall{ background:#ffffff; color:#4a8bcd}
+.nom1 a:hover{  border:solid 1px #4a8bcd; padding:3px 6px; background:#fff; color:#3578cf}*/

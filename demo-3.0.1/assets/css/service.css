@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+html, button, input, select, textarea { font-family:Microsoft YaHei, serif; color: #2e332d; }
+
+
+h1,h2,h3,h4{ font-family:Microsoft YaHei; font-style:normal; text-shadow:none; -webkit-font-weight:normal !important;}
+
+
+
+
+
+.tit_h2_2{line-height:1; padding-bottom:8px; border-bottom:1px solid #e5e5e5; height:21px; clear:both;}
+.tit_h2_2 a{display:block; float:left; font-size:1.14286em; font-weight:100; color:#333; padding:0 4% 0 3%;}
+.tit_h2_2 a.on{font-weight:bold;border-left: 4px solid #62a315;}
+.zdlySlm{background:#f4f4f4; padding-bottom:15px;padding-top: 8px;margin-top: 5px;}
+.zdlySlm ul{ margin:8px 0 8px 10px;}
+.zdlySlm li{float:left; width:70%; white-space:nowrap; text-align:center; font-size:1.1em; line-height:2em;}
+.zdlySlm .xml li{width:20%; font-size:1em; line-height:1.8em; text-align:left; }
+.zdlySlm .xml li:nth-child(13),.zdlySlm .xml li:nth-child(21){width:40%;}
+.zdlySlm .xml li.childw2{width:40%;}
