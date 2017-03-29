@@ -40,7 +40,7 @@
 .tips_img{ text-align:center; padding-top:5px; margin-bottom:5px}
 .policy_title b{ font-size:14px}
 .policy_title span{ float:right}
-.policy_txt li{ line-height:23px; height:23px; overflow:hidden; padding-left:15px}
+.policy_txt li{line-height:23px;height: 25px;overflow:hidden;padding-left: 1px;}
 .policy_txt2 li{ line-height:23px; height:23px; overflow:hidden;}
 .policy_txt3 li{ line-height:23px; height:23px; overflow:hidden; float:left; width:118px}
 .warning h3{ font-size:14px; color:#656565}
